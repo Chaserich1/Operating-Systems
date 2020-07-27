@@ -1,0 +1,65 @@
+Author: Chase Richards
+Project: CS4760 - Homework 6
+Filename: README  
+Date: April 23, 2020
+
+-------------------------------------------------------------------------------
+
+How to Compile and Run (without typing "./" before the executable):
+
+$ make
+$ export PATH="$PATH:."
+
+To Run (Default option values or using options):
+
+$ ./oss
+or
+$ ./oss -n 10 -m 1
+
+To remove all .o, .dat and the executables:
+
+$ make clean
+
+--------------------------------------------------------------------------------
+
+File Change Log in project directory:
+ChangeLog.log
+
+You can also see what changed in the files at:
+https://github.com/Chaserich1/richards.6
+
+--------------------------------------------------------------------------------
+
+Comments on page replacement algorithm on both page request schemes:
+
+I found that the page replacement algorithm on the first scheme had more page faults
+compared to the second scheme. The number of memory accesses per second was on average
+fluctuates but was typically more using the first scheme than the second, which would be due to the clock 
+incrementations and the time it takes to determine a memory address using the second 
+scheme compared to the first which simply generates a random number between 0 and
+total memory. I adjusted my clock incrementations multiple times, and ultimatley
+left it so there would be close to 500 memory accesses per second but that could 
+easily be changed by increasing or decreasing the clock incrementations. For the second
+chance algorithm, it is best case if we find a reference bit of zero for a page not
+referred to in a while and we can replace that page. Worst case is when all of the reference
+bits are set to 1 and degenerates to fifo replacement if all processes end up waiting. The 
+more realistic model for how pages would actually be requested is the second scheme (weighted).
+This is more realistic because the pages to be requested should be weighed using some kind
+of scheme to reduce the number of page faults like locality rather than just a completely
+random value between 0 and total memory.   
+
+--------------------------------------------------------------------------------
+
+Additional Project Information:
+
+1.I included output results - one called memRequestScheme1.txt for the first memory
+request scheme and one called memRequestScheme2.txt for the second memory request scheme.
+2.I limited my output file to 120,000 lines so the output wouldn't become too large
+and I also have the 2 seconds of real time or 100 processes limit.
+3.For the current memory layout printing, I display unallocated frames with a period
+and allocated frames with + based on what it says to do in the assignment sheet.
+4.I implemented synchronization using message queues for each process and used
+semaphores to protect my clock shared resource.
+
+-------------------------------------------------------------------------------
+

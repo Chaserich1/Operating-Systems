@@ -1,0 +1,44 @@
+Author: Chase Richards
+Project: CS4760 - Homework 2
+Filename: README  
+Date: February 13, 2020
+
+-------------------------------------------------------------------------------
+
+How to Compile and Run (without typing "./" before the executable):
+
+$ make
+$ export PATH="$PATH:."
+
+To Run (Default option values or using options):
+
+$ ./oss
+or
+$ ./oss -n 10 -s 2 -b 101 -i 4 -o output.dat
+
+To remove all .o, .dat and the executables:
+
+$ make clean
+
+--------------------------------------------------------------------------------
+
+File Change Log in project directory:
+ChangeLog.log
+
+You can also see what changed in the files at:
+https://github.com/Chaserich1/richards.2
+
+--------------------------------------------------------------------------------
+
+Additional Project Information:
+
+1. I was stuck for a long time trying to figure out why I wasn't able to
+   access my shared memory array that I wrote the pos or neg numbers (prime 
+   or not) to from my Control.c and I finally realized it was because I was
+   detaching and removing the shared memory from ChildProcess.c...I changed
+   it to only detach and not remove until the entire program finishes.
+2. Everything seems to be working according to the project description 
+   based on my testing.  
+
+-------------------------------------------------------------------------------
+

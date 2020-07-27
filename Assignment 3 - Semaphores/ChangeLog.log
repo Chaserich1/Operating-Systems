@@ -1,0 +1,180 @@
+commit b78f7053b3de60eee0ad408b0621c55b2aeecdd0
+Author: Chase Richards <richards@hoare7.cs.umsl.edu>
+Date:   Mon Mar 16 20:37:47 2020 -0500
+
+    Updated README and final updates on project
+
+commit f112fef6086ec752330107ad76cf5d72a93e191c
+Author: Chase Richards <richards@hoare7.cs.umsl.edu>
+Date:   Mon Mar 16 10:16:08 2020 -0500
+
+    Final touches on the project and updating README
+
+commit 240e0fe7dba49f753ae96b904f5ea2431399ee65
+Author: Chase Richards <richards@hoare7.cs.umsl.edu>
+Date:   Sun Mar 15 20:41:21 2020 -0500
+
+    Removing all shared mem segments at completion and for both signals
+
+commit d9ab4923f6baffb5a98390b4086357c43823c786
+Author: Chase Richards <50150341+Chaserich1@users.noreply.github.com>
+Date:   Sun Mar 15 20:12:59 2020 -0500
+
+    Delete adder_log
+
+commit 95f4f0c12bd7a757db7cb2fa9ae6235114af98ed
+Author: Chase Richards <50150341+Chaserich1@users.noreply.github.com>
+Date:   Sun Mar 15 20:12:49 2020 -0500
+
+    Delete bin_adder
+
+commit 0b50b88dbe98941e59d7bddb868a0b0aeec87503
+Author: Chase Richards <50150341+Chaserich1@users.noreply.github.com>
+Date:   Sun Mar 15 20:12:39 2020 -0500
+
+    Delete input.dat
+
+commit 1e00b0c9fe14dd1b82f6042c894a684be6ac8fd5
+Author: Chase Richards <50150341+Chaserich1@users.noreply.github.com>
+Date:   Sun Mar 15 20:12:26 2020 -0500
+
+    Delete master
+
+commit aeddcfd992aed2ca37be4a3a26e80917260c4de9
+Author: Chase Richards <50150341+Chaserich1@users.noreply.github.com>
+Date:   Sun Mar 15 20:12:16 2020 -0500
+
+    Delete testfile.txt
+
+commit d764dc9d1137a0a7baeda1cb4315c697fb68d9ba
+Author: Chase Richards <50150341+Chaserich1@users.noreply.github.com>
+Date:   Sun Mar 15 20:12:01 2020 -0500
+
+    Delete Main.o
+
+commit 52125924761309a16de0c482cb4691fa1beda301
+Author: Chase Richards <50150341+Chaserich1@users.noreply.github.com>
+Date:   Sun Mar 15 20:11:52 2020 -0500
+
+    Delete ChildProcess.o
+
+commit 61deb187c3db79f8ac3069f8010d8217d822910c
+Author: Chase Richards <richards@hoare7.cs.umsl.edu>
+Date:   Sun Mar 15 19:49:09 2020 -0500
+
+    Updated default command options and the README instructions
+
+commit a82b707098f779f43f43b6ffd910fbdae10eeb33
+Author: Chase Richards <richards@hoare7.cs.umsl.edu>
+Date:   Sun Mar 15 17:30:24 2020 -0500
+
+    Added the current time to the adder_log file
+
+commit 0ed751c894143a40aa7a525be45bfe152767777d
+Author: Chase Richards <richards@hoare7.cs.umsl.edu>
+Date:   Sun Mar 15 16:26:47 2020 -0500
+
+    Updated n/logn so it is now using ceil
+
+commit efa69cd626d030208f20a90c41611e277b775937
+Author: Chase Richards <richards@hoare7.cs.umsl.edu>
+Date:   Sun Mar 15 12:07:44 2020 -0500
+
+    Included adder_log
+
+commit c91c4ca74c36e1af9ee6e120217dde4132db0076
+Merge: 0c70fb5 75bf72f
+Author: Chase Richards <richards@hoare7.cs.umsl.edu>
+Date:   Sun Mar 15 11:48:26 2020 -0500
+
+    n/2 and n/log(n) both working and added a timer in main for comparing the performance of the calculations
+
+commit 0c70fb5cc965954237785a462c5425f526efe349
+Author: Chase Richards <richards@hoare7.cs.umsl.edu>
+Date:   Sun Mar 15 11:30:17 2020 -0500
+
+    Added the timer for comparing performance and n/2 and n/log(n) both seem to be working
+
+commit 75bf72fe4b0f70c47b700c293940a11bb5e1a9df
+Author: Chase Richards <richards@hoare7.cs.umsl.edu>
+Date:   Sat Mar 14 18:01:49 2020 -0500
+
+    Now going into both critical sections and fork/execing functions one after the other, next implementing the nlogn calculation
+
+commit ab2024b97243440e109ff2a87bc8811610236f87
+Author: Chase Richards <richards@hoare7.cs.umsl.edu>
+Date:   Sat Mar 14 15:30:12 2020 -0500
+
+    Moved some stuff around so the values are reset in nlogn calculation
+
+commit 8bbad7ae8c795b4e8aece2d1e19453a524110c41
+Author: Chase Richards <richards@hoare7.cs.umsl.edu>
+Date:   Sat Mar 14 13:18:09 2020 -0500
+
+    Fixed shared mem detach
+
+commit a1d26cc616f106a6e06d71a638627f0fd95668eb
+Author: Chase Richards <richards@hoare7.cs.umsl.edu>
+Date:   Sat Mar 14 12:48:57 2020 -0500
+
+    n/2 calculation working for the result but index and size are still printing off to the file
+
+commit b8f95705afa6eb8964ba287e1e4aa71166a42da7
+Author: Chase Richards <richards@hoare7.cs.umsl.edu>
+Date:   Wed Mar 11 18:45:58 2020 -0500
+
+    Added struct for shared memory so I could add more and just attach the struct, also generating adder_log with the header information (PID, index, size)
+
+commit f47894f2af46ea8344f6c6423e3332a47381b106
+Author: Chase Richards <richards@hoare7.cs.umsl.edu>
+Date:   Tue Mar 10 18:38:02 2020 -0500
+
+    Changed it so the file can be generated and filled with random numbers, also able to access index and count from the child, index is weird sometimes though
+
+commit 0508afecd8f8b130b3afe58c0a610c820b378321
+Author: Chase Richards <richards@hoare7.cs.umsl.edu>
+Date:   Mon Mar 9 10:22:37 2020 -0500
+
+    Added semaphore and time details being passed to stderr for waiting, inside, and exiting the critical section
+
+commit 91175d0938bb0f309972ce66f70476801b476ba7
+Author: Chase Richards <richards@hoare7.cs.umsl.edu>
+Date:   Fri Mar 6 19:53:28 2020 -0600
+
+    Added reading input file into shared memory array
+
+commit c29868061c742a129f9c330b3605df1ade91ad0b
+Author: Chase Richards <richards@hoare7.cs.umsl.edu>
+Date:   Thu Mar 5 13:17:40 2020 -0600
+
+    Added signal handler for ctrl-c and 100 second alarm timer. When received, Kills children, and removes shared memory
+
+commit 3832408b3f826c8e0c810f2880a79ccc32a6d271
+Author: Chase Richards <richards@hoare7.cs.umsl.edu>
+Date:   Wed Mar 4 11:07:10 2020 -0600
+
+    Adding ability of forking 64 children and waiting for them to complete. Only 20 allowed in system at a time
+
+commit 35fd08d04aac3944cd3c6fefa9768593a8e67ce8
+Author: Chase Richards <50150341+Chaserich1@users.noreply.github.com>
+Date:   Tue Mar 3 14:30:05 2020 -0600
+
+    Delete README.md
+
+commit 4e778f2a0c818978752cd48d9afaae6018c2a516
+Author: Chase Richards <richards@hoare7.cs.umsl.edu>
+Date:   Tue Mar 3 14:28:40 2020 -0600
+
+    Added getopt and am successfully getting, attaching, and detaching from shared memory from both the main and the child
+
+commit 1af400d0cc7c82665e4e5fede816dbc240884cbb
+Author: Chase Richards <richards@hoare7.cs.umsl.edu>
+Date:   Tue Mar 3 09:20:22 2020 -0600
+
+    Created needed files and confirmed both executables are working
+
+commit 4e3fddcb9da3007f20cfbb616826241f8365a0bd
+Author: Chase Richards <50150341+Chaserich1@users.noreply.github.com>
+Date:   Tue Mar 3 08:58:20 2020 -0600
+
+    Initial commit

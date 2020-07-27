@@ -1,0 +1,48 @@
+Author: Chase Richards
+Project: CS4760 - Homework 1
+Filename: README  
+Date: February 9, 2020
+
+-------------------------------------------------------------------------------
+
+How to Compile and Run (without typing "./" before the executable):
+
+$ make
+$ export PATH="$PATH:."
+$ bt [-h] [-L -d -g -i -p -s -t -u | -l] [dirname]
+
+To remove all .o and the bt executable:
+
+$ make clean
+
+--------------------------------------------------------------------------------
+
+File Change Log in project directory:
+ChangeLog.txt
+
+You can also see what changed in the files at:
+https://github.com/Chaserich1/richards.1
+
+--------------------------------------------------------------------------------
+
+Additional Project Information:
+
+1. In SearchFileSystem.c I added code to ignore the .git files because they
+   were printing lots of additional files and directories when there was no
+   directory specified. It works with the .git files but excluding those makes it much
+   easier to see that the Breadth-First Traversal is working correctly.
+2. I included following and printing the symbolic links in SearchFileSystem.c
+   because I was able to format it to be after the file path/name similar
+   to how ls -l formats following the symbolic link
+3. I was able to make it so make clean will remove all executables at the current
+   level using find. That way if the executable name is changed after compilation
+   "make clean" command will still remove the newly named executable.
+4. I started small on this project and slowly built up trying to get everything
+   that I added to work together. I had to move code around to different locations
+   so that it would work together and for clean up purposes. The toughest part was
+   getting the breadth-first search to work with a queue which I implemented after
+   I finished everything else except the symbolic link option. Overall, I think
+   everything should be working according to the assignment sheet.
+
+-------------------------------------------------------------------------------
+

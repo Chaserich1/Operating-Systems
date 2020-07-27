@@ -1,0 +1,74 @@
+Author: Chase Richards
+Project: CS4760 - Homework 3
+Filename: README  
+Date: March 3, 2020
+
+-------------------------------------------------------------------------------
+
+How to Compile and Run (without typing "./" before the executable):
+
+$ make
+$ export PATH="$PATH:."
+
+To Run (Default option values or using options):
+
+$ ./master 
+or
+$ ./master -f input.dat -n 32 -t 200
+
+To remove all .o, .dat, adder_log and the executables:
+
+$ make clean
+
+--------------------------------------------------------------------------------
+
+File Change Log in project directory:
+ChangeLog.log
+
+You can also see what changed in the files at:
+https://github.com/Chaserich1/richards.3
+
+--------------------------------------------------------------------------------
+
+Performance:
+
+When n = 64, method 1 (n/2) takes over double the amount of time that n/logn
+takes, for the input.dat file I included n/2 takes 2.36 times the amount of time
+as n/logn. Method 1 (n/2) took 144 seconds and method 2 (n/logn) took 61 seconds.
+Method 2 took less than half the time because it only had to run 23 processes
+compared to the 63 processes that n/2 ran. I found roughly similar results when I ran
+different input integer totals such as 32, 128, and 256. Though the higher the number
+of integers the difference expanded - meaning method 1 took far longer than method 2. 
+I left the input.dat and adder_log files in my directory but they will be removed by "make clean".
+Once you do make clean you can run the program again using the instructions
+above. The timer needs to be specified with the -t option and needs to be greater
+than 100 for 32, 64, 128, 256 input integers. I found -t 300 cover 64 and -t 900
+covers 128 and 256.
+
+--------------------------------------------------------------------------------
+
+Additional Project Information:
+
+1.I included options for specifying the the input file in case you have your own,
+  the number of random integers to generate in the input file, and the timer
+  time for the signal to end the program and kill everything. 
+2.Default for the timer is 100 as specified in the assignment but that is not enough
+  time for my program to complete higher number of integers such as 32, 64, 128, etc.
+  Therefore, for those you need to make the timer larger by doing for example -t 1000
+  which will be plently of time for the program to complete without running out of time.
+3.I do my size in the adder_log file as follows (ex. 64 input integers): I print size 
+  of 2 for the first layer of 32 processes that add the 32 pairs of integers together. 
+  On the next layer, I print size of 4 for each process because each process will result 
+  in the total of 4 of the original input files integers. This continues for 8, 16, 32, 64.
+  I wasn't sure if it should be size of 2 for all but I confirmed with Prof. Bhatia that my
+  way of doing the size was okay.
+4.When my program is executed it generates a input.dat file which contains the specified
+  number of random integers (-n option) between [0,256)
+5.I print to stderr when a process is waiting, inside, and exiting the critical section.
+  I print the PID, Index, Size, result of the specific childs calculation, and the time 
+  of the system clock on each line of my logfile (adder_log).
+6.I left my input.dat and adder_log in my directory when I submitted so that you could
+  see the data that my performance summary is based on. "$ make clean" will remove these
+  files.
+-------------------------------------------------------------------------------
+

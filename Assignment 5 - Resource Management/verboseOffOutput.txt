@@ -1,0 +1,4904 @@
+Program Starting - No Resources Allocated to Processes: 
+Allocated Matrix
+   R0  R1  R2  R3  R4  R5  R6  R7  R8  R9  R10 R11 R12 R13 R14 R15 R16 R17 R18 R19 
+P0  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+P1  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+P2  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+P3  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+P4  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+P5  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+P6  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+P7  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+P8  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+P9  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+P10 0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+P11 0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+P12 0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+P13 0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+P14 0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+P15 0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+P16 0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+P17 0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+   Oss detected that P0 is deadlocked at time 2:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R2:1
+   P0 released resource: R7:2
+   P0 released resource: R11:1
+   P0 released resource: R13:1
+   P0 released resource: R14:1
+   P0 released resource: R15:1
+   P0 released resource: R16:2
+   P0 released resource: R17:2
+   P0 released resource: R18:1
+   P0 released resource: R19:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 3:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R17:1
+   P0 released resource: R18:1
+   P0 released resource: R19:2
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 3:002000000
+   Attempting to resolve deadlock
+   P1 released resource: R4:1
+   P1 released resource: R7:1
+   P1 released resource: R10:1
+   P1 released resource: R11:1
+   P1 released resource: R17:1
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   Oss detected that P4 is deadlocked at time 3:002000000
+   Attempting to resolve deadlock
+   P4 released resource: R12:1
+   P4 released resource: R13:1
+   P4 released resource: R14:1
+   P4 released resource: R15:1
+   P4 released resource: R16:2
+   P4 released resource: R17:2
+   Oss killing process P4
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P7 is deadlocked at time 4:000000000
+   Attempting to resolve deadlock
+   P7 released resource: R0:1
+   P7 released resource: R3:1
+   P7 released resource: R7:1
+   P7 released resource: R12:1
+   P7 released resource: R13:1
+   P7 released resource: R14:1
+   P7 released resource: R17:1
+   P7 released resource: R18:1
+   P7 released resource: R19:2
+   Oss killing process P7
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 5:001000000
+   Attempting to resolve deadlock
+   P0 released resource: R1:1
+   P0 released resource: R7:1
+   P0 released resource: R11:1
+   P0 released resource: R14:1
+   P0 released resource: R15:2
+   P0 released resource: R16:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 6:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R8:1
+   P0 released resource: R15:1
+   P0 released resource: R16:1
+   P0 released resource: R17:1
+   P0 released resource: R18:2
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 6:001000000
+   Attempting to resolve deadlock
+   P1 released resource: R13:1
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 7:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R19:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P2 is deadlocked at time 7:002000000
+   Attempting to resolve deadlock
+   P2 released resource: R19:1
+   Oss killing process P2
+   Oss running deadlock detector after process kill
+   Oss detected that P7 is deadlocked at time 7:002000000
+   Attempting to resolve deadlock
+   P7 released resource: R8:1
+   P7 released resource: R9:1
+   P7 released resource: R13:1
+   P7 released resource: R16:1
+   P7 released resource: R19:1
+   Oss killing process P7
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 11:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R17:1
+   P0 released resource: R19:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 11:001000000
+   Attempting to resolve deadlock
+   P1 released resource: R11:2
+   P1 released resource: R17:1
+   P1 released resource: R18:1
+   P1 released resource: R19:2
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   Oss detected that P3 is deadlocked at time 11:001000000
+   Attempting to resolve deadlock
+   Oss killing process P3
+   Oss running deadlock detector after process kill
+   Oss detected that P5 is deadlocked at time 11:001000000
+   Attempting to resolve deadlock
+   P5 released resource: R5:1
+   P5 released resource: R19:1
+   Oss killing process P5
+   Oss running deadlock detector after process kill
+   Oss detected that P6 is deadlocked at time 11:001000000
+   Attempting to resolve deadlock
+   Oss killing process P6
+   Oss running deadlock detector after process kill
+   Oss detected that P7 is deadlocked at time 11:001000000
+   Attempting to resolve deadlock
+   P7 released resource: R3:1
+   P7 released resource: R9:1
+   P7 released resource: R16:1
+   P7 released resource: R19:1
+   Oss killing process P7
+   Oss running deadlock detector after process kill
+   Oss detected that P8 is deadlocked at time 11:001000000
+   Attempting to resolve deadlock
+   P8 released resource: R1:1
+   P8 released resource: R8:1
+   P8 released resource: R11:1
+   P8 released resource: R12:1
+   P8 released resource: R15:1
+   P8 released resource: R16:1
+   Oss killing process P8
+   Oss running deadlock detector after process kill
+   Oss detected that P9 is deadlocked at time 11:001000000
+   Attempting to resolve deadlock
+   P9 released resource: R11:1
+   P9 released resource: R14:1
+   Oss killing process P9
+   Oss running deadlock detector after process kill
+   Oss detected that P11 is deadlocked at time 11:001000000
+   Attempting to resolve deadlock
+   P11 released resource: R14:1
+   Oss killing process P11
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 12:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R11:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 13:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R17:1
+   P0 released resource: R18:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 13:001000000
+   Attempting to resolve deadlock
+   P1 released resource: R4:1
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   Oss detected that P3 is deadlocked at time 13:001000000
+   Attempting to resolve deadlock
+   Oss killing process P3
+   Oss running deadlock detector after process kill
+   Oss detected that P5 is deadlocked at time 13:001000000
+   Attempting to resolve deadlock
+   Oss killing process P5
+   Oss running deadlock detector after process kill
+   Oss detected that P6 is deadlocked at time 13:001000000
+   Attempting to resolve deadlock
+   Oss killing process P6
+   Oss running deadlock detector after process kill
+   Oss detected that P7 is deadlocked at time 13:001000000
+   Attempting to resolve deadlock
+   P7 released resource: R16:1
+   Oss killing process P7
+   Oss running deadlock detector after process kill
+   Oss detected that P8 is deadlocked at time 13:001000000
+   Attempting to resolve deadlock
+   P8 released resource: R0:1
+   P8 released resource: R7:2
+   P8 released resource: R15:1
+   P8 released resource: R16:1
+   P8 released resource: R18:1
+   Oss killing process P8
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 14:000000000
+   Attempting to resolve deadlock
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 14:000000000
+   Attempting to resolve deadlock
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   Oss detected that P3 is deadlocked at time 14:000000000
+   Attempting to resolve deadlock
+   Oss killing process P3
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 15:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R1:1
+   P0 released resource: R4:1
+   P0 released resource: R15:1
+   P0 released resource: R16:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P5 is deadlocked at time 15:000000000
+   Attempting to resolve deadlock
+   Oss killing process P5
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 16:000000000
+   Attempting to resolve deadlock
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 16:001000000
+   Attempting to resolve deadlock
+   P1 released resource: R5:1
+   P1 released resource: R6:2
+   P1 released resource: R7:1
+   P1 released resource: R9:2
+   P1 released resource: R12:2
+   P1 released resource: R15:1
+   P1 released resource: R16:1
+   P1 released resource: R18:2
+   P1 released resource: R19:1
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   Oss detected that P5 is deadlocked at time 16:001000000
+   Attempting to resolve deadlock
+   Oss killing process P5
+   Oss running deadlock detector after process kill
+   Oss detected that P6 is deadlocked at time 16:001000000
+   Attempting to resolve deadlock
+   P6 released resource: R5:1
+   Oss killing process P6
+   Oss running deadlock detector after process kill
+   Oss detected that P7 is deadlocked at time 16:001000000
+   Attempting to resolve deadlock
+   P7 released resource: R15:1
+   P7 released resource: R16:2
+   Oss killing process P7
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 17:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R2:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 17:000000000
+   Attempting to resolve deadlock
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   Oss detected that P5 is deadlocked at time 17:000000000
+   Attempting to resolve deadlock
+   P5 released resource: R11:1
+   P5 released resource: R18:1
+   Oss killing process P5
+   Oss running deadlock detector after process kill
+   Oss detected that P6 is deadlocked at time 17:000000000
+   Attempting to resolve deadlock
+   P6 released resource: R6:1
+   Oss killing process P6
+   Oss running deadlock detector after process kill
+   Oss detected that P8 is deadlocked at time 17:000000000
+   Attempting to resolve deadlock
+   P8 released resource: R14:1
+   Oss killing process P8
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 18:000000000
+   Attempting to resolve deadlock
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 18:001000000
+   Attempting to resolve deadlock
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 19:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R7:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 19:000000000
+   Attempting to resolve deadlock
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   Oss detected that P5 is deadlocked at time 19:000000000
+   Attempting to resolve deadlock
+   Oss killing process P5
+   Oss running deadlock detector after process kill
+   Oss detected that P6 is deadlocked at time 19:000000000
+   Attempting to resolve deadlock
+   P6 released resource: R9:1
+   P6 released resource: R12:1
+   Oss killing process P6
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 20:000000000
+   Attempting to resolve deadlock
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 20:000000000
+   Attempting to resolve deadlock
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   Oss detected that P5 is deadlocked at time 20:000000000
+   Attempting to resolve deadlock
+   Oss killing process P5
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 21:000000000
+   Attempting to resolve deadlock
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 21:000000000
+   Attempting to resolve deadlock
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   Oss detected that P5 is deadlocked at time 21:000000000
+   Attempting to resolve deadlock
+   P5 released resource: R5:1
+   Oss killing process P5
+   Oss running deadlock detector after process kill
+   Oss detected that P6 is deadlocked at time 21:000000000
+   Attempting to resolve deadlock
+   Oss killing process P6
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 22:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R4:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 22:001000000
+   Attempting to resolve deadlock
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   Oss detected that P5 is deadlocked at time 22:001000000
+   Attempting to resolve deadlock
+   Oss killing process P5
+   Oss running deadlock detector after process kill
+   Oss detected that P6 is deadlocked at time 22:001000000
+   Attempting to resolve deadlock
+   P6 released resource: R15:1
+   Oss killing process P6
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 23:000000000
+   Attempting to resolve deadlock
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 23:001000000
+   Attempting to resolve deadlock
+   P1 released resource: R8:1
+   P1 released resource: R9:1
+   P1 released resource: R11:1
+   P1 released resource: R15:1
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   Oss detected that P5 is deadlocked at time 23:001000000
+   Attempting to resolve deadlock
+   Oss killing process P5
+   Oss running deadlock detector after process kill
+   Oss detected that P6 is deadlocked at time 23:001000000
+   Attempting to resolve deadlock
+   P6 released resource: R8:1
+   P6 released resource: R14:1
+   Oss killing process P6
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 24:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R12:1
+   P0 released resource: R17:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 24:000000000
+   Attempting to resolve deadlock
+   P1 released resource: R9:1
+   P1 released resource: R14:1
+   P1 released resource: R15:2
+   P1 released resource: R17:1
+   P1 released resource: R18:1
+   P1 released resource: R19:1
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 25:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R0:1
+   P0 released resource: R17:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 25:001000000
+   Attempting to resolve deadlock
+   P1 released resource: R5:1
+   P1 released resource: R8:1
+   P1 released resource: R17:1
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   Oss detected that P5 is deadlocked at time 25:001000000
+   Attempting to resolve deadlock
+   P5 released resource: R5:1
+   P5 released resource: R11:1
+   P5 released resource: R15:1
+   P5 released resource: R16:1
+   Oss killing process P5
+   Oss running deadlock detector after process kill
+   Oss detected that P7 is deadlocked at time 25:001000000
+   Attempting to resolve deadlock
+   P7 released resource: R12:1
+   Oss killing process P7
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 26:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R9:1
+   P0 released resource: R12:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 26:001000000
+   Attempting to resolve deadlock
+   P1 released resource: R4:1
+   P1 released resource: R11:1
+   P1 released resource: R17:1
+   P1 released resource: R18:1
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 27:000000000
+   Attempting to resolve deadlock
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 27:001000000
+   Attempting to resolve deadlock
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 28:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R2:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 28:000000000
+   Attempting to resolve deadlock
+   P1 released resource: R6:1
+   P1 released resource: R18:1
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 29:000000000
+   Attempting to resolve deadlock
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 29:000000000
+   Attempting to resolve deadlock
+   P1 released resource: R16:1
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   Oss detected that P3 is deadlocked at time 29:000000000
+   Attempting to resolve deadlock
+   Oss killing process P3
+   Oss running deadlock detector after process kill
+   Oss detected that P5 is deadlocked at time 29:000000000
+   Attempting to resolve deadlock
+   P5 released resource: R7:1
+   P5 released resource: R9:1
+   P5 released resource: R15:1
+   Oss killing process P5
+   Oss running deadlock detector after process kill
+   Oss detected that P6 is deadlocked at time 29:000000000
+   Attempting to resolve deadlock
+   P6 released resource: R15:1
+   Oss killing process P6
+   Oss running deadlock detector after process kill
+   Oss detected that P7 is deadlocked at time 29:000000000
+   Attempting to resolve deadlock
+   P7 released resource: R3:1
+   Oss killing process P7
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 30:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R2:1
+   P0 released resource: R11:1
+   P0 released resource: R19:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 30:001000000
+   Attempting to resolve deadlock
+   P1 released resource: R9:1
+   P1 released resource: R14:1
+   P1 released resource: R15:2
+   P1 released resource: R17:1
+   P1 released resource: R18:1
+   P1 released resource: R19:3
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   Oss detected that P3 is deadlocked at time 30:001000000
+   Attempting to resolve deadlock
+   P3 released resource: R16:1
+   Oss killing process P3
+   Oss running deadlock detector after process kill
+   Oss detected that P5 is deadlocked at time 30:001000000
+   Attempting to resolve deadlock
+   Oss killing process P5
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 31:000000000
+   Attempting to resolve deadlock
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 31:001000000
+   Attempting to resolve deadlock
+   P1 released resource: R17:1
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 32:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R12:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 32:000000000
+   Attempting to resolve deadlock
+   P1 released resource: R2:1
+   P1 released resource: R4:1
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   Oss detected that P3 is deadlocked at time 32:000000000
+   Attempting to resolve deadlock
+   P3 released resource: R5:1
+   P3 released resource: R9:2
+   Oss killing process P3
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 33:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R17:1
+   P0 released resource: R19:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 33:000000000
+   Attempting to resolve deadlock
+   P1 released resource: R2:1
+   P1 released resource: R17:1
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 34:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R7:1
+   P0 released resource: R15:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 34:001000000
+   Attempting to resolve deadlock
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   Oss detected that P3 is deadlocked at time 34:001000000
+   Attempting to resolve deadlock
+   P3 released resource: R17:1
+   Oss killing process P3
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 35:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R8:1
+   P0 released resource: R11:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 35:000000000
+   Attempting to resolve deadlock
+   P1 released resource: R18:1
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 36:000000000
+   Attempting to resolve deadlock
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 36:001000000
+   Attempting to resolve deadlock
+   P1 released resource: R5:1
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   Oss detected that P3 is deadlocked at time 36:001000000
+   Attempting to resolve deadlock
+   Oss killing process P3
+   Oss running deadlock detector after process kill
+   Oss detected that P5 is deadlocked at time 36:001000000
+   Attempting to resolve deadlock
+   P5 released resource: R7:1
+   P5 released resource: R15:1
+   P5 released resource: R16:1
+   Oss killing process P5
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P1 is deadlocked at time 37:000000000
+   Attempting to resolve deadlock
+   P1 released resource: R14:1
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   Oss detected that P7 is deadlocked at time 37:002000000
+   Attempting to resolve deadlock
+   P7 released resource: R8:1
+   P7 released resource: R11:2
+   P7 released resource: R12:1
+   P7 released resource: R14:1
+   P7 released resource: R15:1
+   P7 released resource: R17:1
+   P7 released resource: R18:2
+   Oss killing process P7
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 38:000000000
+   Attempting to resolve deadlock
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 38:001000000
+   Attempting to resolve deadlock
+   P1 released resource: R8:1
+   P1 released resource: R11:1
+   P1 released resource: R14:1
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 39:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R8:1
+   P0 released resource: R9:1
+   P0 released resource: R15:1
+   P0 released resource: R17:1
+   P0 released resource: R19:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 39:000000000
+   Attempting to resolve deadlock
+   P1 released resource: R7:1
+   P1 released resource: R16:3
+   P1 released resource: R19:1
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   Oss detected that P3 is deadlocked at time 39:000000000
+   Attempting to resolve deadlock
+   P3 released resource: R8:1
+   P3 released resource: R16:1
+   Oss killing process P3
+   Oss running deadlock detector after process kill
+   Oss detected that P5 is deadlocked at time 39:000000000
+   Attempting to resolve deadlock
+   P5 released resource: R12:1
+   P5 released resource: R16:1
+   P5 released resource: R17:1
+   P5 released resource: R18:2
+   Oss killing process P5
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 40:000000000
+   Attempting to resolve deadlock
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 40:001000000
+   Attempting to resolve deadlock
+   P1 released resource: R19:1
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   Oss detected that P3 is deadlocked at time 40:001000000
+   Attempting to resolve deadlock
+   P3 released resource: R0:1
+   P3 released resource: R2:1
+   P3 released resource: R3:1
+   P3 released resource: R7:1
+   P3 released resource: R9:1
+   P3 released resource: R18:1
+   P3 released resource: R19:1
+   Oss killing process P3
+   Oss running deadlock detector after process kill
+   Oss detected that P5 is deadlocked at time 40:001000000
+   Attempting to resolve deadlock
+   P5 released resource: R15:2
+   P5 released resource: R16:3
+   P5 released resource: R17:1
+   P5 released resource: R18:1
+   P5 released resource: R19:1
+   Oss killing process P5
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 41:000000000
+   Attempting to resolve deadlock
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 41:001000000
+   Attempting to resolve deadlock
+   P1 released resource: R0:1
+   P1 released resource: R4:1
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 42:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R8:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 42:000000000
+   Attempting to resolve deadlock
+   P1 released resource: R18:2
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 43:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R14:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 43:000000000
+   Attempting to resolve deadlock
+   P1 released resource: R0:1
+   P1 released resource: R6:1
+   P1 released resource: R14:2
+   P1 released resource: R16:1
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   Oss detected that P3 is deadlocked at time 43:000000000
+   Attempting to resolve deadlock
+   Oss killing process P3
+   Oss running deadlock detector after process kill
+   Oss detected that P5 is deadlocked at time 43:000000000
+   Attempting to resolve deadlock
+   P5 released resource: R0:1
+   P5 released resource: R5:1
+   P5 released resource: R6:1
+   P5 released resource: R16:1
+   Oss killing process P5
+   Oss running deadlock detector after process kill
+   Oss detected that P7 is deadlocked at time 43:000000000
+   Attempting to resolve deadlock
+   P7 released resource: R2:1
+   P7 released resource: R5:1
+   P7 released resource: R7:1
+   Oss killing process P7
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 44:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R2:1
+   P0 released resource: R9:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 44:000000000
+   Attempting to resolve deadlock
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   Oss detected that P3 is deadlocked at time 44:000000000
+   Attempting to resolve deadlock
+   P3 released resource: R6:1
+   P3 released resource: R16:1
+   P3 released resource: R19:1
+   Oss killing process P3
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 45:000000000
+   Attempting to resolve deadlock
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 45:000000000
+   Attempting to resolve deadlock
+   P1 released resource: R14:2
+   P1 released resource: R15:1
+   P1 released resource: R16:1
+   P1 released resource: R18:3
+   P1 released resource: R19:3
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   Oss detected that P3 is deadlocked at time 45:000000000
+   Attempting to resolve deadlock
+   P3 released resource: R19:1
+   Oss killing process P3
+   Oss running deadlock detector after process kill
+   Oss detected that P5 is deadlocked at time 45:000000000
+   Attempting to resolve deadlock
+   Oss killing process P5
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 46:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R16:1
+   P0 released resource: R18:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 46:002000000
+   Attempting to resolve deadlock
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 47:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R5:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 49:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R0:1
+   P0 released resource: R1:1
+   P0 released resource: R18:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 49:001000000
+   Attempting to resolve deadlock
+   P1 released resource: R11:1
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   Oss detected that P3 is deadlocked at time 49:001000000
+   Attempting to resolve deadlock
+   P3 released resource: R18:1
+   Oss killing process P3
+   Oss running deadlock detector after process kill
+   Oss detected that P5 is deadlocked at time 49:001000000
+   Attempting to resolve deadlock
+   Oss killing process P5
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 50:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R3:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 50:000000000
+   Attempting to resolve deadlock
+   P1 released resource: R15:1
+   P1 released resource: R16:1
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 51:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R2:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 51:001000000
+   Attempting to resolve deadlock
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   Oss detected that P3 is deadlocked at time 51:001000000
+   Attempting to resolve deadlock
+   P3 released resource: R3:1
+   P3 released resource: R9:1
+   P3 released resource: R17:1
+   Oss killing process P3
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 52:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R12:1
+   P0 released resource: R15:1
+   P0 released resource: R16:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 52:000000000
+   Attempting to resolve deadlock
+   P1 released resource: R14:1
+   P1 released resource: R16:1
+   P1 released resource: R17:1
+   P1 released resource: R18:2
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 53:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R17:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 53:001000000
+   Attempting to resolve deadlock
+   P1 released resource: R3:1
+   P1 released resource: R17:1
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   Oss detected that P3 is deadlocked at time 53:001000000
+   Attempting to resolve deadlock
+   P3 released resource: R15:1
+   P3 released resource: R17:1
+   Oss killing process P3
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 54:001000000
+   Attempting to resolve deadlock
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 54:001000000
+   Attempting to resolve deadlock
+   P1 released resource: R11:1
+   P1 released resource: R14:1
+   P1 released resource: R15:1
+   P1 released resource: R17:1
+   P1 released resource: R18:1
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   Oss detected that P3 is deadlocked at time 54:002000000
+   Attempting to resolve deadlock
+   P3 released resource: R14:1
+   Oss killing process P3
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 55:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R2:2
+   P0 released resource: R6:1
+   P0 released resource: R11:2
+   P0 released resource: R12:1
+   P0 released resource: R14:1
+   P0 released resource: R15:1
+   P0 released resource: R18:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 55:001000000
+   Attempting to resolve deadlock
+   P1 released resource: R1:1
+   P1 released resource: R2:1
+   P1 released resource: R6:1
+   P1 released resource: R9:1
+   P1 released resource: R11:1
+   P1 released resource: R17:1
+   P1 released resource: R19:2
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   Oss detected that P3 is deadlocked at time 55:001000000
+   Attempting to resolve deadlock
+   P3 released resource: R5:1
+   P3 released resource: R18:1
+   Oss killing process P3
+   Oss running deadlock detector after process kill
+   Oss detected that P7 is deadlocked at time 55:001000000
+   Attempting to resolve deadlock
+   Oss killing process P7
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 57:000000000
+   Attempting to resolve deadlock
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 57:000000000
+   Attempting to resolve deadlock
+   P1 released resource: R8:1
+   P1 released resource: R16:1
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   Oss detected that P3 is deadlocked at time 57:000000000
+   Attempting to resolve deadlock
+   P3 released resource: R14:1
+   P3 released resource: R15:1
+   P3 released resource: R16:4
+   P3 released resource: R17:2
+   Oss killing process P3
+   Oss running deadlock detector after process kill
+   Oss detected that P7 is deadlocked at time 57:000000000
+   Attempting to resolve deadlock
+   P7 released resource: R11:1
+   P7 released resource: R14:1
+   P7 released resource: R16:1
+   P7 released resource: R19:1
+   Oss killing process P7
+   Oss running deadlock detector after process kill
+   Oss detected that P9 is deadlocked at time 57:000000000
+   Attempting to resolve deadlock
+   Oss killing process P9
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 58:000000000
+   Attempting to resolve deadlock
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 58:001000000
+   Attempting to resolve deadlock
+   P1 released resource: R14:1
+   P1 released resource: R16:1
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 59:000000000
+   Attempting to resolve deadlock
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P3 is deadlocked at time 59:001000000
+   Attempting to resolve deadlock
+   Oss killing process P3
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 60:000000000
+   Attempting to resolve deadlock
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 60:000000000
+   Attempting to resolve deadlock
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   Oss detected that P3 is deadlocked at time 60:000000000
+   Attempting to resolve deadlock
+   Oss killing process P3
+   Oss running deadlock detector after process kill
+   Oss detected that P7 is deadlocked at time 60:000000000
+   Attempting to resolve deadlock
+   P7 released resource: R3:1
+   P7 released resource: R5:1
+   Oss killing process P7
+   Oss running deadlock detector after process kill
+   Oss detected that P8 is deadlocked at time 60:000000000
+   Attempting to resolve deadlock
+   P8 released resource: R0:1
+   P8 released resource: R7:1
+   Oss killing process P8
+   Oss running deadlock detector after process kill
+   Oss detected that P9 is deadlocked at time 60:000000000
+   Attempting to resolve deadlock
+   P9 released resource: R11:1
+   P9 released resource: R16:1
+   P9 released resource: R17:1
+   P9 released resource: R19:1
+   Oss killing process P9
+   Oss running deadlock detector after process kill
+   Oss detected that P11 is deadlocked at time 60:000000000
+   Attempting to resolve deadlock
+   Oss killing process P11
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 61:000000000
+   Attempting to resolve deadlock
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 61:000000000
+   Attempting to resolve deadlock
+   P1 released resource: R2:1
+   P1 released resource: R17:2
+   P1 released resource: R19:1
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   Oss detected that P3 is deadlocked at time 61:000000000
+   Attempting to resolve deadlock
+   P3 released resource: R2:1
+   P3 released resource: R7:1
+   P3 released resource: R19:1
+   Oss killing process P3
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 62:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R12:1
+   P0 released resource: R18:2
+   P0 released resource: R19:2
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 62:000000000
+   Attempting to resolve deadlock
+   P1 released resource: R16:1
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   Oss detected that P3 is deadlocked at time 62:000000000
+   Attempting to resolve deadlock
+   P3 released resource: R16:1
+   Oss killing process P3
+   Oss running deadlock detector after process kill
+   Oss detected that P7 is deadlocked at time 62:000000000
+   Attempting to resolve deadlock
+   P7 released resource: R6:1
+   P7 released resource: R9:1
+   P7 released resource: R12:1
+   P7 released resource: R16:1
+   Oss killing process P7
+   Oss running deadlock detector after process kill
+   Oss detected that P8 is deadlocked at time 62:000000000
+   Attempting to resolve deadlock
+   P8 released resource: R4:1
+   Oss killing process P8
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 63:001000000
+   Attempting to resolve deadlock
+   P0 released resource: R9:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P6 is deadlocked at time 63:001000000
+   Attempting to resolve deadlock
+   P6 released resource: R18:1
+   P6 released resource: R19:1
+   Oss killing process P6
+   Oss running deadlock detector after process kill
+   Oss detected that P9 is deadlocked at time 63:001000000
+   Attempting to resolve deadlock
+   Oss killing process P9
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 64:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R17:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 64:001000000
+   Attempting to resolve deadlock
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   Oss detected that P3 is deadlocked at time 64:001000000
+   Attempting to resolve deadlock
+   Oss killing process P3
+   Oss running deadlock detector after process kill
+   Oss detected that P6 is deadlocked at time 64:001000000
+   Attempting to resolve deadlock
+   P6 released resource: R18:1
+   Oss killing process P6
+   Oss running deadlock detector after process kill
+   Oss detected that P7 is deadlocked at time 64:001000000
+   Attempting to resolve deadlock
+   P7 released resource: R0:1
+   P7 released resource: R8:1
+   P7 released resource: R15:1
+   Oss killing process P7
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 65:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R14:1
+   P0 released resource: R18:1
+   P0 released resource: R19:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 65:000000000
+   Attempting to resolve deadlock
+   P1 released resource: R1:1
+   P1 released resource: R2:1
+   P1 released resource: R18:1
+   P1 released resource: R19:1
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   Oss detected that P3 is deadlocked at time 65:000000000
+   Attempting to resolve deadlock
+   P3 released resource: R0:1
+   P3 released resource: R6:1
+   P3 released resource: R16:1
+   P3 released resource: R17:1
+   P3 released resource: R19:2
+   Oss killing process P3
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 66:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R0:1
+   P0 released resource: R14:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 66:000000000
+   Attempting to resolve deadlock
+   P1 released resource: R6:1
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   Oss detected that P6 is deadlocked at time 66:000000000
+   Attempting to resolve deadlock
+   Oss killing process P6
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 67:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R7:1
+   P0 released resource: R16:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 67:001000000
+   Attempting to resolve deadlock
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   Oss detected that P3 is deadlocked at time 67:001000000
+   Attempting to resolve deadlock
+   P3 released resource: R11:1
+   Oss killing process P3
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 68:001000000
+   Attempting to resolve deadlock
+   P0 released resource: R14:2
+   P0 released resource: R18:4
+   P0 released resource: R19:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 68:001000000
+   Attempting to resolve deadlock
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   Oss detected that P3 is deadlocked at time 68:001000000
+   Attempting to resolve deadlock
+   Oss killing process P3
+   Oss running deadlock detector after process kill
+   Oss detected that P6 is deadlocked at time 68:001000000
+   Attempting to resolve deadlock
+   P6 released resource: R2:1
+   P6 released resource: R12:1
+   P6 released resource: R17:1
+   Oss killing process P6
+   Oss running deadlock detector after process kill
+   Oss detected that P7 is deadlocked at time 68:001000000
+   Attempting to resolve deadlock
+   P7 released resource: R7:1
+   P7 released resource: R12:1
+   P7 released resource: R17:1
+   Oss killing process P7
+   Oss running deadlock detector after process kill
+   Oss detected that P8 is deadlocked at time 68:001000000
+   Attempting to resolve deadlock
+   P8 released resource: R14:1
+   P8 released resource: R15:2
+   P8 released resource: R16:1
+   Oss killing process P8
+   Oss running deadlock detector after process kill
+   Oss detected that P9 is deadlocked at time 68:001000000
+   Attempting to resolve deadlock
+   Oss killing process P9
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 69:001000000
+   Attempting to resolve deadlock
+   P0 released resource: R9:1
+   P0 released resource: R17:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 69:001000000
+   Attempting to resolve deadlock
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   Oss detected that P3 is deadlocked at time 69:001000000
+   Attempting to resolve deadlock
+   P3 released resource: R6:2
+   P3 released resource: R7:1
+   P3 released resource: R8:1
+   Oss killing process P3
+   Oss running deadlock detector after process kill
+   Oss detected that P6 is deadlocked at time 69:001000000
+   Attempting to resolve deadlock
+   P6 released resource: R1:1
+   P6 released resource: R2:1
+   P6 released resource: R16:2
+   P6 released resource: R18:1
+   Oss killing process P6
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 70:000000000
+   Attempting to resolve deadlock
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 70:001000000
+   Attempting to resolve deadlock
+   P1 released resource: R7:1
+   P1 released resource: R8:2
+   P1 released resource: R9:1
+   P1 released resource: R11:1
+   P1 released resource: R16:1
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   Oss detected that P3 is deadlocked at time 70:001000000
+   Attempting to resolve deadlock
+   P3 released resource: R2:1
+   P3 released resource: R8:1
+   P3 released resource: R18:1
+   Oss killing process P3
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 71:000000000
+   Attempting to resolve deadlock
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 71:000000000
+   Attempting to resolve deadlock
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   Oss detected that P7 is deadlocked at time 71:000000000
+   Attempting to resolve deadlock
+   P7 released resource: R4:1
+   P7 released resource: R5:1
+   P7 released resource: R7:1
+   P7 released resource: R16:1
+   Oss killing process P7
+   Oss running deadlock detector after process kill
+   Oss detected that P8 is deadlocked at time 71:000000000
+   Attempting to resolve deadlock
+   Oss killing process P8
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 72:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R12:1
+   P0 released resource: R17:2
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 72:001000000
+   Attempting to resolve deadlock
+   P1 released resource: R12:1
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   Oss detected that P3 is deadlocked at time 72:001000000
+   Attempting to resolve deadlock
+   P3 released resource: R6:1
+   Oss killing process P3
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 73:000000000
+   Attempting to resolve deadlock
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 74:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R4:1
+   P0 released resource: R19:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 74:000000000
+   Attempting to resolve deadlock
+   P1 released resource: R15:1
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   Oss detected that P3 is deadlocked at time 74:000000000
+   Attempting to resolve deadlock
+   P3 released resource: R5:1
+   P3 released resource: R14:1
+   Oss killing process P3
+   Oss running deadlock detector after process kill
+   Oss detected that P6 is deadlocked at time 74:000000000
+   Attempting to resolve deadlock
+   P6 released resource: R19:2
+   Oss killing process P6
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 75:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R7:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 75:000000000
+   Attempting to resolve deadlock
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   Oss detected that P7 is deadlocked at time 75:000000000
+   Attempting to resolve deadlock
+   Oss killing process P7
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 76:001000000
+   Attempting to resolve deadlock
+   P0 released resource: R9:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P3 is deadlocked at time 76:001000000
+   Attempting to resolve deadlock
+   P3 released resource: R5:1
+   P3 released resource: R17:1
+   Oss killing process P3
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 77:000000000
+   Attempting to resolve deadlock
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 77:001000000
+   Attempting to resolve deadlock
+   P1 released resource: R12:2
+   P1 released resource: R18:1
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   Oss detected that P3 is deadlocked at time 77:001000000
+   Attempting to resolve deadlock
+   P3 released resource: R3:1
+   P3 released resource: R6:2
+   P3 released resource: R17:1
+   Oss killing process P3
+   Oss running deadlock detector after process kill
+   Oss detected that P6 is deadlocked at time 77:001000000
+   Attempting to resolve deadlock
+   P6 released resource: R18:1
+   Oss killing process P6
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 78:000000000
+   Attempting to resolve deadlock
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 78:000000000
+   Attempting to resolve deadlock
+   P1 released resource: R0:1
+   P1 released resource: R4:1
+   P1 released resource: R15:1
+   P1 released resource: R16:1
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   Oss detected that P5 is deadlocked at time 78:000000000
+   Attempting to resolve deadlock
+   Oss killing process P5
+   Oss running deadlock detector after process kill
+   Oss detected that P8 is deadlocked at time 78:000000000
+   Attempting to resolve deadlock
+   P8 released resource: R17:3
+   P8 released resource: R18:1
+   Oss killing process P8
+   Oss running deadlock detector after process kill
+   Oss detected that P9 is deadlocked at time 78:000000000
+   Attempting to resolve deadlock
+   Oss killing process P9
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 80:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R2:1
+   P0 released resource: R9:1
+   P0 released resource: R18:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 80:001000000
+   Attempting to resolve deadlock
+   P1 released resource: R0:1
+   P1 released resource: R6:1
+   P1 released resource: R7:1
+   P1 released resource: R15:1
+   P1 released resource: R16:1
+   P1 released resource: R18:2
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   Oss detected that P3 is deadlocked at time 80:001000000
+   Attempting to resolve deadlock
+   P3 released resource: R5:1
+   Oss killing process P3
+   Oss running deadlock detector after process kill
+   Oss detected that P5 is deadlocked at time 80:001000000
+   Attempting to resolve deadlock
+   Oss killing process P5
+   Oss running deadlock detector after process kill
+   Oss detected that P6 is deadlocked at time 80:001000000
+   Attempting to resolve deadlock
+   Oss killing process P6
+   Oss running deadlock detector after process kill
+   Oss detected that P7 is deadlocked at time 80:001000000
+   Attempting to resolve deadlock
+   P7 released resource: R14:1
+   P7 released resource: R17:1
+   Oss killing process P7
+   Oss running deadlock detector after process kill
+   Oss detected that P8 is deadlocked at time 80:001000000
+   Attempting to resolve deadlock
+   P8 released resource: R0:1
+   P8 released resource: R9:1
+   P8 released resource: R14:1
+   Oss killing process P8
+   Oss running deadlock detector after process kill
+   Oss detected that P9 is deadlocked at time 80:001000000
+   Attempting to resolve deadlock
+   P9 released resource: R12:1
+   P9 released resource: R14:1
+   P9 released resource: R18:1
+   P9 released resource: R19:1
+   Oss killing process P9
+   Oss running deadlock detector after process kill
+   Oss detected that P12 is deadlocked at time 80:001000000
+   Attempting to resolve deadlock
+   P12 released resource: R9:1
+   Oss killing process P12
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 83:000000000
+   Attempting to resolve deadlock
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 83:000000000
+   Attempting to resolve deadlock
+   P1 released resource: R4:1
+   P1 released resource: R11:1
+   P1 released resource: R12:1
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   Oss detected that P3 is deadlocked at time 83:000000000
+   Attempting to resolve deadlock
+   P3 released resource: R11:1
+   P3 released resource: R17:1
+   Oss killing process P3
+   Oss running deadlock detector after process kill
+   Oss detected that P5 is deadlocked at time 83:000000000
+   Attempting to resolve deadlock
+   Oss killing process P5
+   Oss running deadlock detector after process kill
+   Oss detected that P6 is deadlocked at time 83:000000000
+   Attempting to resolve deadlock
+   P6 released resource: R16:1
+   P6 released resource: R18:1
+   Oss killing process P6
+   Oss running deadlock detector after process kill
+   Oss detected that P7 is deadlocked at time 83:000000000
+   Attempting to resolve deadlock
+   P7 released resource: R14:2
+   Oss killing process P7
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 84:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R16:2
+   P0 released resource: R17:3
+   P0 released resource: R18:1
+   P0 released resource: R19:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 84:000000000
+   Attempting to resolve deadlock
+   P1 released resource: R3:1
+   P1 released resource: R14:1
+   P1 released resource: R15:1
+   P1 released resource: R18:1
+   P1 released resource: R19:1
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 85:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R2:1
+   P0 released resource: R3:1
+   P0 released resource: R14:1
+   P0 released resource: R17:2
+   P0 released resource: R18:1
+   P0 released resource: R19:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 85:001000000
+   Attempting to resolve deadlock
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   Oss detected that P5 is deadlocked at time 85:001000000
+   Attempting to resolve deadlock
+   Oss killing process P5
+   Oss running deadlock detector after process kill
+   Oss detected that P6 is deadlocked at time 85:001000000
+   Attempting to resolve deadlock
+   Oss killing process P6
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 86:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R3:1
+   P0 released resource: R9:2
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P5 is deadlocked at time 86:000000000
+   Attempting to resolve deadlock
+   P5 released resource: R3:1
+   P5 released resource: R6:1
+   P5 released resource: R11:1
+   Oss killing process P5
+   Oss running deadlock detector after process kill
+   Oss detected that P7 is deadlocked at time 86:000000000
+   Attempting to resolve deadlock
+   Oss killing process P7
+   Oss running deadlock detector after process kill
+   Oss detected that P8 is deadlocked at time 86:000000000
+   Attempting to resolve deadlock
+   P8 released resource: R1:1
+   P8 released resource: R3:1
+   P8 released resource: R5:2
+   P8 released resource: R9:1
+   P8 released resource: R15:1
+   Oss killing process P8
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 87:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R14:1
+   P0 released resource: R15:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P5 is deadlocked at time 87:000000000
+   Attempting to resolve deadlock
+   P5 released resource: R14:1
+   Oss killing process P5
+   Oss running deadlock detector after process kill
+   Oss detected that P7 is deadlocked at time 87:000000000
+   Attempting to resolve deadlock
+   P7 released resource: R6:1
+   Oss killing process P7
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P5 is deadlocked at time 88:000000000
+   Attempting to resolve deadlock
+   Oss killing process P5
+   Oss running deadlock detector after process kill
+   Oss detected that P7 is deadlocked at time 88:001000000
+   Attempting to resolve deadlock
+   P7 released resource: R5:1
+   Oss killing process P7
+   Oss running deadlock detector after process kill
+   Oss detected that P8 is deadlocked at time 88:001000000
+   Attempting to resolve deadlock
+   Oss killing process P8
+   Oss running deadlock detector after process kill
+   Oss detected that P9 is deadlocked at time 88:001000000
+   Attempting to resolve deadlock
+   P9 released resource: R11:1
+   Oss killing process P9
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 89:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R17:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P5 is deadlocked at time 89:001000000
+   Attempting to resolve deadlock
+   P5 released resource: R6:1
+   P5 released resource: R7:1
+   P5 released resource: R8:1
+   P5 released resource: R11:3
+   P5 released resource: R15:1
+   Oss killing process P5
+   Oss running deadlock detector after process kill
+   Oss detected that P7 is deadlocked at time 89:001000000
+   Attempting to resolve deadlock
+   Oss killing process P7
+   Oss running deadlock detector after process kill
+   Oss detected that P8 is deadlocked at time 89:001000000
+   Attempting to resolve deadlock
+   P8 released resource: R8:1
+   P8 released resource: R16:1
+   Oss killing process P8
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 90:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R8:1
+   P0 released resource: R16:2
+   P0 released resource: R19:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P5 is deadlocked at time 90:000000000
+   Attempting to resolve deadlock
+   Oss killing process P5
+   Oss running deadlock detector after process kill
+   Oss detected that P7 is deadlocked at time 90:000000000
+   Attempting to resolve deadlock
+   P7 released resource: R2:1
+   Oss killing process P7
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 91:000000000
+   Attempting to resolve deadlock
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P5 is deadlocked at time 91:000000000
+   Attempting to resolve deadlock
+   P5 released resource: R9:1
+   Oss killing process P5
+   Oss running deadlock detector after process kill
+   Oss detected that P7 is deadlocked at time 91:000000000
+   Attempting to resolve deadlock
+   P7 released resource: R9:1
+   P7 released resource: R14:1
+   P7 released resource: R15:1
+   Oss killing process P7
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 92:000000000
+   Attempting to resolve deadlock
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P5 is deadlocked at time 92:000000000
+   Attempting to resolve deadlock
+   P5 released resource: R14:1
+   P5 released resource: R15:1
+   Oss killing process P5
+   Oss running deadlock detector after process kill
+   Oss detected that P8 is deadlocked at time 92:000000000
+   Attempting to resolve deadlock
+   Oss killing process P8
+   Oss running deadlock detector after process kill
+   Oss detected that P9 is deadlocked at time 92:000000000
+   Attempting to resolve deadlock
+   P9 released resource: R0:1
+   P9 released resource: R6:1
+   P9 released resource: R16:1
+   Oss killing process P9
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 93:000000000
+   Attempting to resolve deadlock
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P2 is deadlocked at time 93:001000000
+   Attempting to resolve deadlock
+   P2 released resource: R15:3
+   P2 released resource: R17:2
+   P2 released resource: R18:1
+   P2 released resource: R19:3
+   Oss killing process P2
+   Oss running deadlock detector after process kill
+   Oss detected that P5 is deadlocked at time 93:001000000
+   Attempting to resolve deadlock
+   P5 released resource: R15:1
+   Oss killing process P5
+   Oss running deadlock detector after process kill
+   Oss detected that P12 is deadlocked at time 93:001000000
+   Attempting to resolve deadlock
+   P12 released resource: R14:1
+   P12 released resource: R17:1
+   P12 released resource: R18:2
+   P12 released resource: R19:3
+   Oss killing process P12
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 94:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R17:1
+   P0 released resource: R19:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P2 is deadlocked at time 94:000000000
+   Attempting to resolve deadlock
+   Oss killing process P2
+   Oss running deadlock detector after process kill
+   Oss detected that P5 is deadlocked at time 94:000000000
+   Attempting to resolve deadlock
+   Oss killing process P5
+   Oss running deadlock detector after process kill
+   Oss detected that P9 is deadlocked at time 94:000000000
+   Attempting to resolve deadlock
+   P9 released resource: R15:1
+   Oss killing process P9
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 95:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R2:1
+   P0 released resource: R3:1
+   P0 released resource: R5:1
+   P0 released resource: R8:1
+   P0 released resource: R9:1
+   P0 released resource: R11:1
+   P0 released resource: R14:2
+   P0 released resource: R15:1
+   P0 released resource: R19:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P2 is deadlocked at time 95:001000000
+   Attempting to resolve deadlock
+   P2 released resource: R15:1
+   Oss killing process P2
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 96:000000000
+   Attempting to resolve deadlock
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P2 is deadlocked at time 96:000000000
+   Attempting to resolve deadlock
+   Oss killing process P2
+   Oss running deadlock detector after process kill
+   Oss detected that P5 is deadlocked at time 96:001000000
+   Attempting to resolve deadlock
+   Oss killing process P5
+   Oss running deadlock detector after process kill
+   Oss detected that P9 is deadlocked at time 96:001000000
+   Attempting to resolve deadlock
+   P9 released resource: R14:1
+   Oss killing process P9
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 97:000000000
+   Attempting to resolve deadlock
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 99:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R3:1
+   P0 released resource: R14:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P2 is deadlocked at time 99:001000000
+   Attempting to resolve deadlock
+   P2 released resource: R11:1
+   P2 released resource: R15:1
+   Oss killing process P2
+   Oss running deadlock detector after process kill
+   Oss detected that P5 is deadlocked at time 99:001000000
+   Attempting to resolve deadlock
+   P5 released resource: R1:1
+   P5 released resource: R7:3
+   P5 released resource: R8:1
+   P5 released resource: R11:1
+   P5 released resource: R12:2
+   P5 released resource: R19:2
+   Oss killing process P5
+   Oss running deadlock detector after process kill
+   Oss detected that P9 is deadlocked at time 99:001000000
+   Attempting to resolve deadlock
+   P9 released resource: R8:1
+   P9 released resource: R18:1
+   Oss killing process P9
+   Oss running deadlock detector after process kill
+   Oss detected that P12 is deadlocked at time 99:001000000
+   Attempting to resolve deadlock
+   P12 released resource: R11:1
+   Oss killing process P12
+   Oss running deadlock detector after process kill
+   Oss detected that P13 is deadlocked at time 99:001000000
+   Attempting to resolve deadlock
+   Oss killing process P13
+   Oss running deadlock detector after process kill
+   Oss detected that P14 is deadlocked at time 99:001000000
+   Attempting to resolve deadlock
+   P14 released resource: R14:1
+   P14 released resource: R17:1
+   Oss killing process P14
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 100:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R14:1
+   P0 released resource: R15:1
+   P0 released resource: R16:1
+   P0 released resource: R19:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P2 is deadlocked at time 100:001000000
+   Attempting to resolve deadlock
+   Oss killing process P2
+   Oss running deadlock detector after process kill
+   Oss detected that P5 is deadlocked at time 100:001000000
+   Attempting to resolve deadlock
+   P5 released resource: R14:1
+   Oss killing process P5
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 102:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R17:1
+   P0 released resource: R18:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P2 is deadlocked at time 102:000000000
+   Attempting to resolve deadlock
+   P2 released resource: R6:1
+   Oss killing process P2
+   Oss running deadlock detector after process kill
+   Oss detected that P5 is deadlocked at time 102:000000000
+   Attempting to resolve deadlock
+   P5 released resource: R1:2
+   Oss killing process P5
+   Oss running deadlock detector after process kill
+   Oss detected that P9 is deadlocked at time 102:000000000
+   Attempting to resolve deadlock
+   Oss killing process P9
+   Oss running deadlock detector after process kill
+   Oss detected that P12 is deadlocked at time 102:000000000
+   Attempting to resolve deadlock
+   P12 released resource: R5:1
+   P12 released resource: R12:1
+   P12 released resource: R16:1
+   P12 released resource: R17:2
+   Oss killing process P12
+   Oss running deadlock detector after process kill
+   Oss detected that P15 is deadlocked at time 102:000000000
+   Attempting to resolve deadlock
+   P15 released resource: R9:1
+   Oss killing process P15
+   Oss running deadlock detector after process kill
+   Oss detected that P16 is deadlocked at time 102:000000000
+   Attempting to resolve deadlock
+   P16 released resource: R18:1
+   P16 released resource: R19:1
+   Oss killing process P16
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 103:000000000
+   Attempting to resolve deadlock
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P2 is deadlocked at time 103:000000000
+   Attempting to resolve deadlock
+   P2 released resource: R9:1
+   P2 released resource: R14:1
+   P2 released resource: R18:1
+   Oss killing process P2
+   Oss running deadlock detector after process kill
+   Oss detected that P5 is deadlocked at time 103:000000000
+   Attempting to resolve deadlock
+   Oss killing process P5
+   Oss running deadlock detector after process kill
+   Oss detected that P9 is deadlocked at time 103:000000000
+   Attempting to resolve deadlock
+   P9 released resource: R8:1
+   Oss killing process P9
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 105:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R9:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P2 is deadlocked at time 105:000000000
+   Attempting to resolve deadlock
+   P2 released resource: R8:1
+   P2 released resource: R17:1
+   P2 released resource: R19:1
+   Oss killing process P2
+   Oss running deadlock detector after process kill
+   Oss detected that P5 is deadlocked at time 105:000000000
+   Attempting to resolve deadlock
+   P5 released resource: R17:1
+   P5 released resource: R19:2
+   Oss killing process P5
+   Oss running deadlock detector after process kill
+   Oss detected that P9 is deadlocked at time 105:000000000
+   Attempting to resolve deadlock
+   Oss killing process P9
+   Oss running deadlock detector after process kill
+   Oss detected that P15 is deadlocked at time 105:000000000
+   Attempting to resolve deadlock
+   P15 released resource: R2:1
+   P15 released resource: R16:2
+   P15 released resource: R19:1
+   Oss killing process P15
+   Oss running deadlock detector after process kill
+   Oss detected that P17 is deadlocked at time 105:000000000
+   Attempting to resolve deadlock
+   Oss killing process P17
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 106:000000000
+   Attempting to resolve deadlock
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P2 is deadlocked at time 106:001000000
+   Attempting to resolve deadlock
+   Oss killing process P2
+   Oss running deadlock detector after process kill
+   Oss detected that P5 is deadlocked at time 106:001000000
+   Attempting to resolve deadlock
+   Oss killing process P5
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 107:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R6:1
+   P0 released resource: R8:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P2 is deadlocked at time 107:000000000
+   Attempting to resolve deadlock
+   Oss killing process P2
+   Oss running deadlock detector after process kill
+   Oss detected that P5 is deadlocked at time 107:000000000
+   Attempting to resolve deadlock
+   P5 released resource: R6:1
+   Oss killing process P5
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 108:000000000
+   Attempting to resolve deadlock
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 108:000000000
+   Attempting to resolve deadlock
+   P1 released resource: R0:1
+   P1 released resource: R17:2
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   Oss detected that P2 is deadlocked at time 108:000000000
+   Attempting to resolve deadlock
+   P2 released resource: R7:1
+   P2 released resource: R9:1
+   Oss killing process P2
+   Oss running deadlock detector after process kill
+   Oss detected that P5 is deadlocked at time 108:000000000
+   Attempting to resolve deadlock
+   P5 released resource: R1:1
+   P5 released resource: R6:1
+   Oss killing process P5
+   Oss running deadlock detector after process kill
+   Oss detected that P9 is deadlocked at time 108:000000000
+   Attempting to resolve deadlock
+   P9 released resource: R5:1
+   Oss killing process P9
+   Oss running deadlock detector after process kill
+   Oss detected that P17 is deadlocked at time 108:000000000
+   Attempting to resolve deadlock
+   P17 released resource: R12:1
+   P17 released resource: R14:1
+   P17 released resource: R18:1
+   Oss killing process P17
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 109:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R1:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P2 is deadlocked at time 109:002000000
+   Attempting to resolve deadlock
+   Oss killing process P2
+   Oss running deadlock detector after process kill
+   Oss detected that P7 is deadlocked at time 109:003000000
+   Attempting to resolve deadlock
+   Oss killing process P7
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 110:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R6:1
+   P0 released resource: R15:1
+   P0 released resource: R16:1
+   P0 released resource: R17:1
+   P0 released resource: R18:1
+   P0 released resource: R19:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 110:002000000
+   Attempting to resolve deadlock
+   P1 released resource: R5:1
+   P1 released resource: R7:1
+   P1 released resource: R8:1
+   P1 released resource: R9:1
+   P1 released resource: R14:1
+   P1 released resource: R15:1
+   P1 released resource: R18:1
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   Oss detected that P2 is deadlocked at time 110:002000000
+   Attempting to resolve deadlock
+   P2 released resource: R4:1
+   Oss killing process P2
+   Oss running deadlock detector after process kill
+   Oss detected that P17 is deadlocked at time 110:002000000
+   Attempting to resolve deadlock
+   P17 released resource: R2:1
+   Oss killing process P17
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 111:000000000
+   Attempting to resolve deadlock
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 111:001000000
+   Attempting to resolve deadlock
+   P1 released resource: R16:1
+   P1 released resource: R19:1
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 112:000000000
+   Attempting to resolve deadlock
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 112:000000000
+   Attempting to resolve deadlock
+   P1 released resource: R7:1
+   P1 released resource: R12:1
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   Oss detected that P2 is deadlocked at time 112:000000000
+   Attempting to resolve deadlock
+   P2 released resource: R12:1
+   Oss killing process P2
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 113:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R15:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 113:000000000
+   Attempting to resolve deadlock
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   Oss detected that P2 is deadlocked at time 113:000000000
+   Attempting to resolve deadlock
+   P2 released resource: R5:1
+   P2 released resource: R11:1
+   Oss killing process P2
+   Oss running deadlock detector after process kill
+   Oss detected that P5 is deadlocked at time 113:000000000
+   Attempting to resolve deadlock
+   P5 released resource: R2:1
+   P5 released resource: R9:1
+   P5 released resource: R11:1
+   Oss killing process P5
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 114:000000000
+   Attempting to resolve deadlock
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 114:000000000
+   Attempting to resolve deadlock
+   P1 released resource: R11:1
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 115:000000000
+   Attempting to resolve deadlock
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 115:000000000
+   Attempting to resolve deadlock
+   P1 released resource: R15:1
+   P1 released resource: R18:1
+   P1 released resource: R19:1
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   Oss detected that P2 is deadlocked at time 115:000000000
+   Attempting to resolve deadlock
+   P2 released resource: R0:1
+   Oss killing process P2
+   Oss running deadlock detector after process kill
+   Oss detected that P5 is deadlocked at time 115:000000000
+   Attempting to resolve deadlock
+   P5 released resource: R12:1
+   Oss killing process P5
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 116:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R12:1
+   P0 released resource: R14:1
+   P0 released resource: R15:1
+   P0 released resource: R17:1
+   P0 released resource: R19:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 116:000000000
+   Attempting to resolve deadlock
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   Oss detected that P7 is deadlocked at time 116:000000000
+   Attempting to resolve deadlock
+   Oss killing process P7
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 117:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R6:1
+   P0 released resource: R8:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 117:001000000
+   Attempting to resolve deadlock
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   Oss detected that P5 is deadlocked at time 117:001000000
+   Attempting to resolve deadlock
+   P5 released resource: R5:1
+   Oss killing process P5
+   Oss running deadlock detector after process kill
+   Oss detected that P7 is deadlocked at time 117:001000000
+   Attempting to resolve deadlock
+   Oss killing process P7
+   Oss running deadlock detector after process kill
+   Oss detected that P9 is deadlocked at time 117:001000000
+   Attempting to resolve deadlock
+   Oss killing process P9
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 118:000000000
+   Attempting to resolve deadlock
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 118:000000000
+   Attempting to resolve deadlock
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   Oss detected that P5 is deadlocked at time 118:000000000
+   Attempting to resolve deadlock
+   P5 released resource: R8:1
+   P5 released resource: R9:1
+   P5 released resource: R14:1
+   P5 released resource: R15:1
+   P5 released resource: R18:1
+   P5 released resource: R19:1
+   Oss killing process P5
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 119:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R11:2
+   P0 released resource: R12:1
+   P0 released resource: R14:1
+   P0 released resource: R16:1
+   P0 released resource: R17:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 119:000000000
+   Attempting to resolve deadlock
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   Oss detected that P5 is deadlocked at time 119:000000000
+   Attempting to resolve deadlock
+   Oss killing process P5
+   Oss running deadlock detector after process kill
+   Oss detected that P9 is deadlocked at time 119:000000000
+   Attempting to resolve deadlock
+   Oss killing process P9
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 120:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R9:1
+   P0 released resource: R14:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P5 is deadlocked at time 120:000000000
+   Attempting to resolve deadlock
+   Oss killing process P5
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 121:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R5:1
+   P0 released resource: R15:2
+   P0 released resource: R17:1
+   P0 released resource: R19:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P5 is deadlocked at time 121:000000000
+   Attempting to resolve deadlock
+   P5 released resource: R11:1
+   Oss killing process P5
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 122:000000000
+   Attempting to resolve deadlock
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P5 is deadlocked at time 122:000000000
+   Attempting to resolve deadlock
+   Oss killing process P5
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 123:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R12:1
+   P0 released resource: R14:1
+   P0 released resource: R15:1
+   P0 released resource: R18:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P3 is deadlocked at time 123:000000000
+   Attempting to resolve deadlock
+   P3 released resource: R11:1
+   P3 released resource: R14:1
+   P3 released resource: R15:1
+   Oss killing process P3
+   Oss running deadlock detector after process kill
+   Oss detected that P5 is deadlocked at time 123:000000000
+   Attempting to resolve deadlock
+   P5 released resource: R11:1
+   P5 released resource: R17:2
+   P5 released resource: R19:1
+   Oss killing process P5
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 124:000000000
+   Attempting to resolve deadlock
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P3 is deadlocked at time 124:000000000
+   Attempting to resolve deadlock
+   Oss killing process P3
+   Oss running deadlock detector after process kill
+   Oss detected that P5 is deadlocked at time 124:000000000
+   Attempting to resolve deadlock
+   P5 released resource: R4:1
+   P5 released resource: R15:1
+   P5 released resource: R19:1
+   Oss killing process P5
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 125:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R9:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P3 is deadlocked at time 125:000000000
+   Attempting to resolve deadlock
+   P3 released resource: R1:1
+   P3 released resource: R16:1
+   Oss killing process P3
+   Oss running deadlock detector after process kill
+   Oss detected that P5 is deadlocked at time 125:000000000
+   Attempting to resolve deadlock
+   P5 released resource: R12:1
+   Oss killing process P5
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 126:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R6:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P3 is deadlocked at time 126:000000000
+   Attempting to resolve deadlock
+   Oss killing process P3
+   Oss running deadlock detector after process kill
+   Oss detected that P5 is deadlocked at time 126:000000000
+   Attempting to resolve deadlock
+   Oss killing process P5
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 127:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R16:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 127:000000000
+   Attempting to resolve deadlock
+   P1 released resource: R16:1
+   P1 released resource: R17:1
+   P1 released resource: R18:1
+   P1 released resource: R19:1
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   Oss detected that P3 is deadlocked at time 127:000000000
+   Attempting to resolve deadlock
+   P3 released resource: R3:1
+   Oss killing process P3
+   Oss running deadlock detector after process kill
+   Oss detected that P5 is deadlocked at time 127:000000000
+   Attempting to resolve deadlock
+   P5 released resource: R9:1
+   P5 released resource: R17:1
+   Oss killing process P5
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 128:000000000
+   Attempting to resolve deadlock
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 128:000000000
+   Attempting to resolve deadlock
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   Oss detected that P3 is deadlocked at time 128:000000000
+   Attempting to resolve deadlock
+   P3 released resource: R0:1
+   Oss killing process P3
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 129:000000000
+   Attempting to resolve deadlock
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 129:000000000
+   Attempting to resolve deadlock
+   P1 released resource: R0:1
+   P1 released resource: R7:1
+   P1 released resource: R9:1
+   P1 released resource: R12:1
+   P1 released resource: R14:3
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   Oss detected that P3 is deadlocked at time 129:000000000
+   Attempting to resolve deadlock
+   P3 released resource: R17:1
+   Oss killing process P3
+   Oss running deadlock detector after process kill
+   Oss detected that P5 is deadlocked at time 129:000000000
+   Attempting to resolve deadlock
+   P5 released resource: R6:1
+   P5 released resource: R8:1
+   P5 released resource: R14:1
+   Oss killing process P5
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 130:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R15:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 130:001000000
+   Attempting to resolve deadlock
+   P1 released resource: R8:1
+   P1 released resource: R9:1
+   P1 released resource: R12:1
+   P1 released resource: R15:1
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   Oss detected that P3 is deadlocked at time 130:001000000
+   Attempting to resolve deadlock
+   P3 released resource: R0:1
+   Oss killing process P3
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 131:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R2:1
+   P0 released resource: R5:1
+   P0 released resource: R6:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 131:000000000
+   Attempting to resolve deadlock
+   P1 released resource: R1:1
+   P1 released resource: R2:1
+   P1 released resource: R3:1
+   P1 released resource: R7:1
+   P1 released resource: R8:1
+   P1 released resource: R9:1
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   Oss detected that P3 is deadlocked at time 131:000000000
+   Attempting to resolve deadlock
+   Oss killing process P3
+   Oss running deadlock detector after process kill
+   Oss detected that P5 is deadlocked at time 131:000000000
+   Attempting to resolve deadlock
+   P5 released resource: R2:1
+   Oss killing process P5
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 132:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R6:2
+   P0 released resource: R7:1
+   P0 released resource: R9:1
+   P0 released resource: R17:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 132:001000000
+   Attempting to resolve deadlock
+   P1 released resource: R8:1
+   P1 released resource: R16:1
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 133:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R8:1
+   P0 released resource: R15:1
+   P0 released resource: R16:1
+   P0 released resource: R17:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 133:000000000
+   Attempting to resolve deadlock
+   P1 released resource: R5:1
+   P1 released resource: R6:1
+   P1 released resource: R9:1
+   P1 released resource: R12:1
+   P1 released resource: R14:1
+   P1 released resource: R15:1
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   Oss detected that P3 is deadlocked at time 133:000000000
+   Attempting to resolve deadlock
+   P3 released resource: R12:1
+   P3 released resource: R14:1
+   P3 released resource: R17:1
+   P3 released resource: R18:1
+   Oss killing process P3
+   Oss running deadlock detector after process kill
+   Oss detected that P5 is deadlocked at time 133:000000000
+   Attempting to resolve deadlock
+   P5 released resource: R17:1
+   Oss killing process P5
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 134:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R5:2
+   P0 released resource: R9:1
+   P0 released resource: R14:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P3 is deadlocked at time 134:000000000
+   Attempting to resolve deadlock
+   Oss killing process P3
+   Oss running deadlock detector after process kill
+   Oss detected that P5 is deadlocked at time 134:000000000
+   Attempting to resolve deadlock
+   P5 released resource: R6:1
+   Oss killing process P5
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 135:000000000
+   Attempting to resolve deadlock
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P3 is deadlocked at time 135:000000000
+   Attempting to resolve deadlock
+   P3 released resource: R3:1
+   P3 released resource: R4:1
+   P3 released resource: R15:1
+   P3 released resource: R17:1
+   Oss killing process P3
+   Oss running deadlock detector after process kill
+   Oss detected that P5 is deadlocked at time 135:000000000
+   Attempting to resolve deadlock
+   P5 released resource: R0:1
+   P5 released resource: R4:1
+   P5 released resource: R12:1
+   P5 released resource: R18:2
+   P5 released resource: R19:2
+   Oss killing process P5
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 136:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R15:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P3 is deadlocked at time 136:000000000
+   Attempting to resolve deadlock
+   P3 released resource: R15:1
+   P3 released resource: R16:1
+   Oss killing process P3
+   Oss running deadlock detector after process kill
+   Oss detected that P5 is deadlocked at time 136:000000000
+   Attempting to resolve deadlock
+   P5 released resource: R18:1
+   Oss killing process P5
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 137:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R16:2
+   P0 released resource: R18:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 137:000000000
+   Attempting to resolve deadlock
+   P1 released resource: R1:1
+   P1 released resource: R4:1
+   P1 released resource: R7:2
+   P1 released resource: R8:2
+   P1 released resource: R14:1
+   P1 released resource: R15:1
+   P1 released resource: R16:1
+   P1 released resource: R18:2
+   P1 released resource: R19:1
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   Oss detected that P3 is deadlocked at time 137:000000000
+   Attempting to resolve deadlock
+   P3 released resource: R4:1
+   Oss killing process P3
+   Oss running deadlock detector after process kill
+   Oss detected that P5 is deadlocked at time 137:000000000
+   Attempting to resolve deadlock
+   P5 released resource: R9:1
+   Oss killing process P5
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 138:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R1:1
+   P0 released resource: R17:1
+   P0 released resource: R18:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 138:001000000
+   Attempting to resolve deadlock
+   P1 released resource: R9:1
+   P1 released resource: R19:1
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   Oss detected that P5 is deadlocked at time 138:001000000
+   Attempting to resolve deadlock
+   Oss killing process P5
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 139:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R16:1
+   P0 released resource: R18:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 139:000000000
+   Attempting to resolve deadlock
+   P1 released resource: R1:1
+   P1 released resource: R4:1
+   P1 released resource: R14:1
+   P1 released resource: R15:1
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   Oss detected that P3 is deadlocked at time 139:000000000
+   Attempting to resolve deadlock
+   P3 released resource: R8:1
+   Oss killing process P3
+   Oss running deadlock detector after process kill
+   Oss detected that P5 is deadlocked at time 139:000000000
+   Attempting to resolve deadlock
+   P5 released resource: R7:1
+   P5 released resource: R12:1
+   Oss killing process P5
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 140:000000000
+   Attempting to resolve deadlock
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 140:000000000
+   Attempting to resolve deadlock
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   Oss detected that P3 is deadlocked at time 140:000000000
+   Attempting to resolve deadlock
+   Oss killing process P3
+   Oss running deadlock detector after process kill
+   Oss detected that P5 is deadlocked at time 140:000000000
+   Attempting to resolve deadlock
+   Oss killing process P5
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 141:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R15:2
+   P0 released resource: R17:1
+   P0 released resource: R19:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 141:001000000
+   Attempting to resolve deadlock
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   Oss detected that P3 is deadlocked at time 141:001000000
+   Attempting to resolve deadlock
+   P3 released resource: R4:1
+   P3 released resource: R8:2
+   P3 released resource: R12:2
+   P3 released resource: R16:1
+   Oss killing process P3
+   Oss running deadlock detector after process kill
+   Oss detected that P6 is deadlocked at time 141:001000000
+   Attempting to resolve deadlock
+   Oss killing process P6
+   Oss running deadlock detector after process kill
+   Oss detected that P7 is deadlocked at time 141:001000000
+   Attempting to resolve deadlock
+   P7 released resource: R5:1
+   P7 released resource: R19:1
+   Oss killing process P7
+   Oss running deadlock detector after process kill
+   Oss detected that P9 is deadlocked at time 141:001000000
+   Attempting to resolve deadlock
+   Oss killing process P9
+   Oss running deadlock detector after process kill
+   Oss detected that P11 is deadlocked at time 141:001000000
+   Attempting to resolve deadlock
+   P11 released resource: R19:2
+   Oss killing process P11
+   Oss running deadlock detector after process kill
+   Oss detected that P12 is deadlocked at time 141:001000000
+   Attempting to resolve deadlock
+   P12 released resource: R7:1
+   P12 released resource: R9:1
+   P12 released resource: R15:2
+   P12 released resource: R16:2
+   Oss killing process P12
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 142:001000000
+   Attempting to resolve deadlock
+   P0 released resource: R7:1
+   P0 released resource: R14:1
+   P0 released resource: R15:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 142:001000000
+   Attempting to resolve deadlock
+   P1 released resource: R2:1
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   Oss detected that P15 is deadlocked at time 142:001000000
+   Attempting to resolve deadlock
+   P15 released resource: R5:1
+   P15 released resource: R17:2
+   Oss killing process P15
+   Oss running deadlock detector after process kill
+   Oss detected that P16 is deadlocked at time 142:001000000
+   Attempting to resolve deadlock
+   P16 released resource: R5:1
+   Oss killing process P16
+   Oss running deadlock detector after process kill
+   Oss detected that P17 is deadlocked at time 142:001000000
+   Attempting to resolve deadlock
+   P17 released resource: R4:1
+   P17 released resource: R16:2
+   Oss killing process P17
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 143:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R15:1
+   P0 released resource: R18:1
+   P0 released resource: R19:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 143:001000000
+   Attempting to resolve deadlock
+   P1 released resource: R0:1
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   Oss detected that P3 is deadlocked at time 143:001000000
+   Attempting to resolve deadlock
+   Oss killing process P3
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 144:000000000
+   Attempting to resolve deadlock
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 144:001000000
+   Attempting to resolve deadlock
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 145:000000000
+   Attempting to resolve deadlock
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 145:000000000
+   Attempting to resolve deadlock
+   P1 released resource: R7:2
+   P1 released resource: R15:1
+   P1 released resource: R16:1
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   Oss detected that P3 is deadlocked at time 145:000000000
+   Attempting to resolve deadlock
+   Oss killing process P3
+   Oss running deadlock detector after process kill
+   Oss detected that P5 is deadlocked at time 145:000000000
+   Attempting to resolve deadlock
+   P5 released resource: R9:1
+   P5 released resource: R11:1
+   P5 released resource: R12:1
+   P5 released resource: R17:1
+   P5 released resource: R18:1
+   P5 released resource: R19:1
+   Oss killing process P5
+   Oss running deadlock detector after process kill
+   Oss detected that P6 is deadlocked at time 145:000000000
+   Attempting to resolve deadlock
+   P6 released resource: R5:1
+   P6 released resource: R12:1
+   Oss killing process P6
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 146:000000000
+   Attempting to resolve deadlock
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 146:000000000
+   Attempting to resolve deadlock
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   Oss detected that P3 is deadlocked at time 146:000000000
+   Attempting to resolve deadlock
+   Oss killing process P3
+   Oss running deadlock detector after process kill
+   Oss detected that P5 is deadlocked at time 146:000000000
+   Attempting to resolve deadlock
+   Oss killing process P5
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 147:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R9:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 147:000000000
+   Attempting to resolve deadlock
+   P1 released resource: R5:1
+   P1 released resource: R11:1
+   P1 released resource: R12:1
+   P1 released resource: R14:1
+   P1 released resource: R16:1
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   Oss detected that P3 is deadlocked at time 147:000000000
+   Attempting to resolve deadlock
+   P3 released resource: R5:1
+   P3 released resource: R6:1
+   Oss killing process P3
+   Oss running deadlock detector after process kill
+   Oss detected that P5 is deadlocked at time 147:000000000
+   Attempting to resolve deadlock
+   P5 released resource: R5:1
+   Oss killing process P5
+   Oss running deadlock detector after process kill
+   Oss detected that P6 is deadlocked at time 147:000000000
+   Attempting to resolve deadlock
+   P6 released resource: R1:1
+   P6 released resource: R7:1
+   Oss killing process P6
+   Oss running deadlock detector after process kill
+   Oss detected that P7 is deadlocked at time 147:000000000
+   Attempting to resolve deadlock
+   P7 released resource: R18:1
+   Oss killing process P7
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 149:000000000
+   Attempting to resolve deadlock
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 149:000000000
+   Attempting to resolve deadlock
+   P1 released resource: R5:1
+   P1 released resource: R7:1
+   P1 released resource: R9:2
+   P1 released resource: R11:1
+   P1 released resource: R16:1
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   Oss detected that P9 is deadlocked at time 149:000000000
+   Attempting to resolve deadlock
+   P9 released resource: R14:1
+   P9 released resource: R19:1
+   Oss killing process P9
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 150:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R1:1
+   P0 released resource: R19:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P6 is deadlocked at time 150:001000000
+   Attempting to resolve deadlock
+   P6 released resource: R8:1
+   P6 released resource: R11:1
+   P6 released resource: R16:1
+   Oss killing process P6
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 151:001000000
+   Attempting to resolve deadlock
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 151:001000000
+   Attempting to resolve deadlock
+   P1 released resource: R3:1
+   P1 released resource: R4:1
+   P1 released resource: R14:2
+   P1 released resource: R16:1
+   P1 released resource: R19:1
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   Oss detected that P6 is deadlocked at time 151:001000000
+   Attempting to resolve deadlock
+   P6 released resource: R14:1
+   Oss killing process P6
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 152:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R6:1
+   P0 released resource: R7:1
+   P0 released resource: R8:1
+   P0 released resource: R9:1
+   P0 released resource: R12:1
+   P0 released resource: R14:1
+   P0 released resource: R17:1
+   P0 released resource: R19:2
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 152:001000000
+   Attempting to resolve deadlock
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 154:000000000
+   Attempting to resolve deadlock
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 154:000000000
+   Attempting to resolve deadlock
+   P1 released resource: R2:1
+   P1 released resource: R17:1
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   Oss detected that P6 is deadlocked at time 154:000000000
+   Attempting to resolve deadlock
+   P6 released resource: R2:1
+   P6 released resource: R18:1
+   Oss killing process P6
+   Oss running deadlock detector after process kill
+   Oss detected that P7 is deadlocked at time 154:000000000
+   Attempting to resolve deadlock
+   Oss killing process P7
+   Oss running deadlock detector after process kill
+   Oss detected that P11 is deadlocked at time 154:000000000
+   Attempting to resolve deadlock
+   P11 released resource: R18:1
+   Oss killing process P11
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 156:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R0:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 156:000000000
+   Attempting to resolve deadlock
+   P1 released resource: R12:1
+   P1 released resource: R16:1
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   Oss detected that P6 is deadlocked at time 156:000000000
+   Attempting to resolve deadlock
+   P6 released resource: R12:1
+   P6 released resource: R14:1
+   P6 released resource: R15:1
+   P6 released resource: R18:2
+   P6 released resource: R19:1
+   Oss killing process P6
+   Oss running deadlock detector after process kill
+   Oss detected that P7 is deadlocked at time 156:000000000
+   Attempting to resolve deadlock
+   Oss killing process P7
+   Oss running deadlock detector after process kill
+   Oss detected that P9 is deadlocked at time 156:000000000
+   Attempting to resolve deadlock
+   P9 released resource: R17:1
+   Oss killing process P9
+   Oss running deadlock detector after process kill
+   Oss detected that P11 is deadlocked at time 156:000000000
+   Attempting to resolve deadlock
+   P11 released resource: R3:1
+   P11 released resource: R5:1
+   P11 released resource: R7:2
+   P11 released resource: R16:1
+   Oss killing process P11
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 157:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R0:1
+   P0 released resource: R11:1
+   P0 released resource: R12:1
+   P0 released resource: R16:3
+   P0 released resource: R17:3
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 157:000000000
+   Attempting to resolve deadlock
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   Oss detected that P3 is deadlocked at time 157:000000000
+   Attempting to resolve deadlock
+   P3 released resource: R8:1
+   P3 released resource: R18:1
+   Oss killing process P3
+   Oss running deadlock detector after process kill
+   Oss detected that P5 is deadlocked at time 157:000000000
+   Attempting to resolve deadlock
+   Oss killing process P5
+   Oss running deadlock detector after process kill
+   Oss detected that P6 is deadlocked at time 157:000000000
+   Attempting to resolve deadlock
+   P6 released resource: R4:1
+   P6 released resource: R11:1
+   P6 released resource: R16:1
+   P6 released resource: R17:2
+   Oss killing process P6
+   Oss running deadlock detector after process kill
+   Oss detected that P7 is deadlocked at time 157:000000000
+   Attempting to resolve deadlock
+   Oss killing process P7
+   Oss running deadlock detector after process kill
+   Oss detected that P9 is deadlocked at time 157:000000000
+   Attempting to resolve deadlock
+   P9 released resource: R16:1
+   Oss killing process P9
+   Oss running deadlock detector after process kill
+   Oss detected that P12 is deadlocked at time 157:000000000
+   Attempting to resolve deadlock
+   Oss killing process P12
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 158:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R18:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 158:000000000
+   Attempting to resolve deadlock
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   Oss detected that P3 is deadlocked at time 158:000000000
+   Attempting to resolve deadlock
+   P3 released resource: R9:1
+   Oss killing process P3
+   Oss running deadlock detector after process kill
+   Oss detected that P5 is deadlocked at time 158:000000000
+   Attempting to resolve deadlock
+   P5 released resource: R9:1
+   Oss killing process P5
+   Oss running deadlock detector after process kill
+   Oss detected that P6 is deadlocked at time 158:000000000
+   Attempting to resolve deadlock
+   P6 released resource: R6:1
+   P6 released resource: R7:1
+   Oss killing process P6
+   Oss running deadlock detector after process kill
+   Oss detected that P15 is deadlocked at time 158:000000000
+   Attempting to resolve deadlock
+   P15 released resource: R1:1
+   P15 released resource: R4:1
+   P15 released resource: R6:1
+   Oss killing process P15
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 159:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R16:1
+   P0 released resource: R18:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 159:000000000
+   Attempting to resolve deadlock
+   P1 released resource: R18:1
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   Oss detected that P3 is deadlocked at time 159:000000000
+   Attempting to resolve deadlock
+   P3 released resource: R18:1
+   Oss killing process P3
+   Oss running deadlock detector after process kill
+   Oss detected that P5 is deadlocked at time 159:000000000
+   Attempting to resolve deadlock
+   P5 released resource: R11:1
+   P5 released resource: R12:1
+   P5 released resource: R14:1
+   P5 released resource: R17:2
+   P5 released resource: R19:1
+   Oss killing process P5
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 160:000000000
+   Attempting to resolve deadlock
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 160:001000000
+   Attempting to resolve deadlock
+   P1 released resource: R14:2
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   Oss detected that P3 is deadlocked at time 160:001000000
+   Attempting to resolve deadlock
+   P3 released resource: R0:1
+   P3 released resource: R2:1
+   Oss killing process P3
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 161:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R6:1
+   P0 released resource: R7:1
+   P0 released resource: R19:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 161:001000000
+   Attempting to resolve deadlock
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   Oss detected that P3 is deadlocked at time 161:001000000
+   Attempting to resolve deadlock
+   Oss killing process P3
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 163:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R0:1
+   P0 released resource: R14:2
+   P0 released resource: R19:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 163:000000000
+   Attempting to resolve deadlock
+   P1 released resource: R17:5
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   Oss detected that P3 is deadlocked at time 163:000000000
+   Attempting to resolve deadlock
+   Oss killing process P3
+   Oss running deadlock detector after process kill
+   Oss detected that P5 is deadlocked at time 163:000000000
+   Attempting to resolve deadlock
+   P5 released resource: R2:1
+   P5 released resource: R8:1
+   Oss killing process P5
+   Oss running deadlock detector after process kill
+   Oss detected that P6 is deadlocked at time 163:000000000
+   Attempting to resolve deadlock
+   Oss killing process P6
+   Oss running deadlock detector after process kill
+   Oss detected that P7 is deadlocked at time 163:000000000
+   Attempting to resolve deadlock
+   Oss killing process P7
+   Oss running deadlock detector after process kill
+   Oss detected that P9 is deadlocked at time 163:000000000
+   Attempting to resolve deadlock
+   Oss killing process P9
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 165:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R16:1
+   P0 released resource: R17:1
+   P0 released resource: R19:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 165:001000000
+   Attempting to resolve deadlock
+   P1 released resource: R9:2
+   P1 released resource: R12:1
+   P1 released resource: R16:1
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   Oss detected that P3 is deadlocked at time 165:001000000
+   Attempting to resolve deadlock
+   P3 released resource: R16:1
+   Oss killing process P3
+   Oss running deadlock detector after process kill
+   Oss detected that P6 is deadlocked at time 165:001000000
+   Attempting to resolve deadlock
+   Oss killing process P6
+   Oss running deadlock detector after process kill
+   Oss detected that P11 is deadlocked at time 165:001000000
+   Attempting to resolve deadlock
+   P11 released resource: R1:1
+   Oss killing process P11
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 166:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R5:1
+   P0 released resource: R6:1
+   P0 released resource: R11:1
+   P0 released resource: R18:1
+   P0 released resource: R19:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 166:000000000
+   Attempting to resolve deadlock
+   P1 released resource: R19:1
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 168:000000000
+   Attempting to resolve deadlock
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 168:001000000
+   Attempting to resolve deadlock
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   Oss detected that P3 is deadlocked at time 168:001000000
+   Attempting to resolve deadlock
+   P3 released resource: R7:1
+   Oss killing process P3
+   Oss running deadlock detector after process kill
+   Oss detected that P5 is deadlocked at time 168:001000000
+   Attempting to resolve deadlock
+   P5 released resource: R2:1
+   P5 released resource: R11:3
+   P5 released resource: R12:2
+   P5 released resource: R14:2
+   P5 released resource: R15:1
+   P5 released resource: R19:3
+   Oss killing process P5
+   Oss running deadlock detector after process kill
+   Oss detected that P6 is deadlocked at time 168:001000000
+   Attempting to resolve deadlock
+   Oss killing process P6
+   Oss running deadlock detector after process kill
+   Oss detected that P7 is deadlocked at time 168:001000000
+   Attempting to resolve deadlock
+   P7 released resource: R1:1
+   Oss killing process P7
+   Oss running deadlock detector after process kill
+   Oss detected that P9 is deadlocked at time 168:001000000
+   Attempting to resolve deadlock
+   P9 released resource: R12:1
+   Oss killing process P9
+   Oss running deadlock detector after process kill
+   Oss detected that P15 is deadlocked at time 168:001000000
+   Attempting to resolve deadlock
+   P15 released resource: R8:1
+   P15 released resource: R19:1
+   Oss killing process P15
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 169:000000000
+   Attempting to resolve deadlock
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 169:000000000
+   Attempting to resolve deadlock
+   P1 released resource: R0:2
+   P1 released resource: R4:1
+   P1 released resource: R7:1
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 171:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R0:1
+   P0 released resource: R2:1
+   P0 released resource: R9:1
+   P0 released resource: R19:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 171:001000000
+   Attempting to resolve deadlock
+   P1 released resource: R11:1
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   Oss detected that P3 is deadlocked at time 171:001000000
+   Attempting to resolve deadlock
+   P3 released resource: R14:1
+   P3 released resource: R19:1
+   Oss killing process P3
+   Oss running deadlock detector after process kill
+   Oss detected that P5 is deadlocked at time 171:001000000
+   Attempting to resolve deadlock
+   Oss killing process P5
+   Oss running deadlock detector after process kill
+   Oss detected that P6 is deadlocked at time 171:001000000
+   Attempting to resolve deadlock
+   Oss killing process P6
+   Oss running deadlock detector after process kill
+   Oss detected that P9 is deadlocked at time 171:001000000
+   Attempting to resolve deadlock
+   Oss killing process P9
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 172:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R4:1
+   P0 released resource: R6:1
+   P0 released resource: R12:1
+   P0 released resource: R14:1
+   P0 released resource: R17:1
+   P0 released resource: R18:3
+   P0 released resource: R19:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P7 is deadlocked at time 172:002000000
+   Attempting to resolve deadlock
+   P7 released resource: R5:1
+   P7 released resource: R9:1
+   P7 released resource: R19:2
+   Oss killing process P7
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 173:000000000
+   Attempting to resolve deadlock
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 173:000000000
+   Attempting to resolve deadlock
+   P1 released resource: R11:1
+   P1 released resource: R14:2
+   P1 released resource: R17:1
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   Oss detected that P3 is deadlocked at time 173:000000000
+   Attempting to resolve deadlock
+   P3 released resource: R0:1
+   P3 released resource: R8:1
+   Oss killing process P3
+   Oss running deadlock detector after process kill
+   Oss detected that P5 is deadlocked at time 173:000000000
+   Attempting to resolve deadlock
+   Oss killing process P5
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 174:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R3:1
+   P0 released resource: R9:1
+   P0 released resource: R17:1
+   P0 released resource: R18:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 174:001000000
+   Attempting to resolve deadlock
+   P1 released resource: R3:1
+   P1 released resource: R7:1
+   P1 released resource: R18:1
+   P1 released resource: R19:1
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   Oss detected that P3 is deadlocked at time 174:001000000
+   Attempting to resolve deadlock
+   Oss killing process P3
+   Oss running deadlock detector after process kill
+   Oss detected that P5 is deadlocked at time 174:001000000
+   Attempting to resolve deadlock
+   P5 released resource: R1:2
+   P5 released resource: R3:1
+   P5 released resource: R4:1
+   Oss killing process P5
+   Oss running deadlock detector after process kill
+   Oss detected that P6 is deadlocked at time 174:001000000
+   Attempting to resolve deadlock
+   P6 released resource: R2:1
+   P6 released resource: R17:1
+   Oss killing process P6
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 175:000000000
+   Attempting to resolve deadlock
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 175:000000000
+   Attempting to resolve deadlock
+   P1 released resource: R17:1
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   Oss detected that P3 is deadlocked at time 175:000000000
+   Attempting to resolve deadlock
+   P3 released resource: R14:1
+   P3 released resource: R18:1
+   Oss killing process P3
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 176:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R5:1
+   P0 released resource: R8:1
+   P0 released resource: R11:1
+   P0 released resource: R16:1
+   P0 released resource: R19:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 176:001000000
+   Attempting to resolve deadlock
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   Oss detected that P3 is deadlocked at time 176:001000000
+   Attempting to resolve deadlock
+   Oss killing process P3
+   Oss running deadlock detector after process kill
+   Oss detected that P5 is deadlocked at time 176:001000000
+   Attempting to resolve deadlock
+   P5 released resource: R14:1
+   P5 released resource: R18:3
+   Oss killing process P5
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 177:000000000
+   Attempting to resolve deadlock
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 177:001000000
+   Attempting to resolve deadlock
+   P1 released resource: R19:1
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   Oss detected that P5 is deadlocked at time 177:001000000
+   Attempting to resolve deadlock
+   Oss killing process P5
+   Oss running deadlock detector after process kill
+   Oss detected that P7 is deadlocked at time 177:001000000
+   Attempting to resolve deadlock
+   P7 released resource: R17:1
+   Oss killing process P7
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 178:000000000
+   Attempting to resolve deadlock
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 178:000000000
+   Attempting to resolve deadlock
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   Oss detected that P3 is deadlocked at time 178:000000000
+   Attempting to resolve deadlock
+   P3 released resource: R5:1
+   P3 released resource: R12:1
+   Oss killing process P3
+   Oss running deadlock detector after process kill
+   Oss detected that P6 is deadlocked at time 178:000000000
+   Attempting to resolve deadlock
+   P6 released resource: R19:1
+   Oss killing process P6
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 179:000000000
+   Attempting to resolve deadlock
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 179:000000000
+   Attempting to resolve deadlock
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   Oss detected that P3 is deadlocked at time 179:000000000
+   Attempting to resolve deadlock
+   Oss killing process P3
+   Oss running deadlock detector after process kill
+   Oss detected that P5 is deadlocked at time 179:000000000
+   Attempting to resolve deadlock
+   P5 released resource: R4:1
+   P5 released resource: R9:1
+   P5 released resource: R11:1
+   P5 released resource: R14:1
+   P5 released resource: R17:1
+   P5 released resource: R18:1
+   Oss killing process P5
+   Oss running deadlock detector after process kill
+   Oss detected that P6 is deadlocked at time 179:000000000
+   Attempting to resolve deadlock
+   P6 released resource: R12:2
+   Oss killing process P6
+   Oss running deadlock detector after process kill
+   Oss detected that P7 is deadlocked at time 179:000000000
+   Attempting to resolve deadlock
+   P7 released resource: R0:1
+   Oss killing process P7
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 180:001000000
+   Attempting to resolve deadlock
+   P0 released resource: R3:1
+   P0 released resource: R7:1
+   P0 released resource: R14:1
+   P0 released resource: R17:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 180:002000000
+   Attempting to resolve deadlock
+   P1 released resource: R12:1
+   P1 released resource: R14:1
+   P1 released resource: R19:1
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 182:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R16:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P3 is deadlocked at time 182:001000000
+   Attempting to resolve deadlock
+   P3 released resource: R8:1
+   P3 released resource: R15:1
+   P3 released resource: R19:1
+   Oss killing process P3
+   Oss running deadlock detector after process kill
+   Oss detected that P5 is deadlocked at time 182:001000000
+   Attempting to resolve deadlock
+   P5 released resource: R15:2
+   P5 released resource: R17:2
+   Oss killing process P5
+   Oss running deadlock detector after process kill
+   Oss detected that P6 is deadlocked at time 182:001000000
+   Attempting to resolve deadlock
+   Oss killing process P6
+   Oss running deadlock detector after process kill
+   Oss detected that P7 is deadlocked at time 182:001000000
+   Attempting to resolve deadlock
+   P7 released resource: R0:1
+   P7 released resource: R8:1
+   P7 released resource: R9:1
+   Oss killing process P7
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 183:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R19:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P3 is deadlocked at time 183:002000000
+   Attempting to resolve deadlock
+   P3 released resource: R5:1
+   P3 released resource: R6:1
+   P3 released resource: R8:1
+   P3 released resource: R18:1
+   P3 released resource: R19:1
+   Oss killing process P3
+   Oss running deadlock detector after process kill
+   Oss detected that P5 is deadlocked at time 183:002000000
+   Attempting to resolve deadlock
+   Oss killing process P5
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 184:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R9:1
+   P0 released resource: R11:1
+   P0 released resource: R15:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P3 is deadlocked at time 184:001000000
+   Attempting to resolve deadlock
+   P3 released resource: R15:1
+   P3 released resource: R19:1
+   Oss killing process P3
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 185:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R6:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P3 is deadlocked at time 185:000000000
+   Attempting to resolve deadlock
+   P3 released resource: R7:1
+   P3 released resource: R17:1
+   P3 released resource: R19:1
+   Oss killing process P3
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 186:000000000
+   Attempting to resolve deadlock
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P3 is deadlocked at time 186:001000000
+   Attempting to resolve deadlock
+   Oss killing process P3
+   Oss running deadlock detector after process kill
+   Oss detected that P5 is deadlocked at time 186:001000000
+   Attempting to resolve deadlock
+   P5 released resource: R14:1
+   Oss killing process P5
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 187:001000000
+   Attempting to resolve deadlock
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P3 is deadlocked at time 187:002000000
+   Attempting to resolve deadlock
+   P3 released resource: R12:1
+   P3 released resource: R19:2
+   Oss killing process P3
+   Oss running deadlock detector after process kill
+   Oss detected that P5 is deadlocked at time 187:002000000
+   Attempting to resolve deadlock
+   P5 released resource: R18:1
+   Oss killing process P5
+   Oss running deadlock detector after process kill
+   Oss detected that P6 is deadlocked at time 187:002000000
+   Attempting to resolve deadlock
+   Oss killing process P6
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 188:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R0:1
+   P0 released resource: R8:1
+   P0 released resource: R16:1
+   P0 released resource: R19:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P3 is deadlocked at time 188:000000000
+   Attempting to resolve deadlock
+   P3 released resource: R0:1
+   P3 released resource: R15:1
+   P3 released resource: R18:1
+   Oss killing process P3
+   Oss running deadlock detector after process kill
+   Oss detected that P5 is deadlocked at time 188:000000000
+   Attempting to resolve deadlock
+   P5 released resource: R16:1
+   Oss killing process P5
+   Oss running deadlock detector after process kill
+   Oss detected that P6 is deadlocked at time 188:000000000
+   Attempting to resolve deadlock
+   Oss killing process P6
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 189:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R18:1
+   P0 released resource: R19:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P3 is deadlocked at time 189:000000000
+   Attempting to resolve deadlock
+   P3 released resource: R0:1
+   P3 released resource: R17:1
+   Oss killing process P3
+   Oss running deadlock detector after process kill
+   Oss detected that P7 is deadlocked at time 189:000000000
+   Attempting to resolve deadlock
+   Oss killing process P7
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 190:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R14:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P3 is deadlocked at time 190:000000000
+   Attempting to resolve deadlock
+   P3 released resource: R12:1
+   P3 released resource: R15:1
+   Oss killing process P3
+   Oss running deadlock detector after process kill
+   Oss detected that P5 is deadlocked at time 190:000000000
+   Attempting to resolve deadlock
+   Oss killing process P5
+   Oss running deadlock detector after process kill
+   Oss detected that P6 is deadlocked at time 190:000000000
+   Attempting to resolve deadlock
+   P6 released resource: R9:1
+   P6 released resource: R19:1
+   Oss killing process P6
+   Oss running deadlock detector after process kill
+   Oss detected that P7 is deadlocked at time 190:000000000
+   Attempting to resolve deadlock
+   P7 released resource: R2:1
+   Oss killing process P7
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 191:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R14:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P3 is deadlocked at time 191:001000000
+   Attempting to resolve deadlock
+   P3 released resource: R6:2
+   P3 released resource: R9:1
+   P3 released resource: R12:2
+   P3 released resource: R16:1
+   Oss killing process P3
+   Oss running deadlock detector after process kill
+   Oss detected that P5 is deadlocked at time 191:001000000
+   Attempting to resolve deadlock
+   P5 released resource: R15:1
+   P5 released resource: R19:1
+   Oss killing process P5
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 192:001000000
+   Attempting to resolve deadlock
+   P0 released resource: R0:1
+   P0 released resource: R17:1
+   P0 released resource: R18:2
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P3 is deadlocked at time 192:001000000
+   Attempting to resolve deadlock
+   P3 released resource: R12:2
+   P3 released resource: R16:1
+   P3 released resource: R18:1
+   Oss killing process P3
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 193:001000000
+   Attempting to resolve deadlock
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P3 is deadlocked at time 193:001000000
+   Attempting to resolve deadlock
+   Oss killing process P3
+   Oss running deadlock detector after process kill
+   Oss detected that P6 is deadlocked at time 193:001000000
+   Attempting to resolve deadlock
+   Oss killing process P6
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 194:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R2:1
+   P0 released resource: R9:1
+   P0 released resource: R16:1
+   P0 released resource: R19:2
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P3 is deadlocked at time 194:000000000
+   Attempting to resolve deadlock
+   Oss killing process P3
+   Oss running deadlock detector after process kill
+   Oss detected that P5 is deadlocked at time 194:000000000
+   Attempting to resolve deadlock
+   P5 released resource: R4:1
+   P5 released resource: R5:1
+   P5 released resource: R9:1
+   Oss killing process P5
+   Oss running deadlock detector after process kill
+   Oss detected that P7 is deadlocked at time 194:000000000
+   Attempting to resolve deadlock
+   Oss killing process P7
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 196:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R12:1
+   P0 released resource: R14:1
+   P0 released resource: R15:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P3 is deadlocked at time 196:000000000
+   Attempting to resolve deadlock
+   Oss killing process P3
+   Oss running deadlock detector after process kill
+   Oss detected that P5 is deadlocked at time 196:000000000
+   Attempting to resolve deadlock
+   P5 released resource: R17:1
+   P5 released resource: R18:2
+   P5 released resource: R19:1
+   Oss killing process P5
+   Oss running deadlock detector after process kill
+   Oss detected that P6 is deadlocked at time 196:000000000
+   Attempting to resolve deadlock
+   P6 released resource: R5:1
+   P6 released resource: R18:1
+   P6 released resource: R19:1
+   Oss killing process P6
+   Oss running deadlock detector after process kill
+   Oss detected that P7 is deadlocked at time 196:000000000
+   Attempting to resolve deadlock
+   P7 released resource: R4:2
+   P7 released resource: R8:1
+   P7 released resource: R14:1
+   P7 released resource: R16:2
+   Oss killing process P7
+   Oss running deadlock detector after process kill
+   Oss detected that P9 is deadlocked at time 196:000000000
+   Attempting to resolve deadlock
+   P9 released resource: R4:1
+   P9 released resource: R6:1
+   P9 released resource: R9:1
+   P9 released resource: R16:1
+   P9 released resource: R17:1
+   Oss killing process P9
+   Oss running deadlock detector after process kill
+   Oss detected that P11 is deadlocked at time 196:000000000
+   Attempting to resolve deadlock
+   P11 released resource: R16:1
+   Oss killing process P11
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P3 is deadlocked at time 197:000000000
+   Attempting to resolve deadlock
+   P3 released resource: R19:1
+   Oss killing process P3
+   Oss running deadlock detector after process kill
+   Oss detected that P5 is deadlocked at time 197:001000000
+   Attempting to resolve deadlock
+   P5 released resource: R7:1
+   Oss killing process P5
+   Oss running deadlock detector after process kill
+   Oss detected that P6 is deadlocked at time 197:002000000
+   Attempting to resolve deadlock
+   Oss killing process P6
+   Oss running deadlock detector after process kill
+   Oss detected that P12 is deadlocked at time 197:002000000
+   Attempting to resolve deadlock
+   P12 released resource: R1:1
+   P12 released resource: R18:1
+   Oss killing process P12
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 198:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R18:2
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P5 is deadlocked at time 198:001000000
+   Attempting to resolve deadlock
+   Oss killing process P5
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 199:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R11:1
+   P0 released resource: R18:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P3 is deadlocked at time 199:001000000
+   Attempting to resolve deadlock
+   P3 released resource: R4:1
+   Oss killing process P3
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 200:000000000
+   Attempting to resolve deadlock
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P3 is deadlocked at time 200:000000000
+   Attempting to resolve deadlock
+   P3 released resource: R0:1
+   P3 released resource: R1:2
+   P3 released resource: R8:1
+   P3 released resource: R9:1
+   P3 released resource: R16:1
+   P3 released resource: R18:2
+   Oss killing process P3
+   Oss running deadlock detector after process kill
+   Oss detected that P5 is deadlocked at time 200:000000000
+   Attempting to resolve deadlock
+   Oss killing process P5
+   Oss running deadlock detector after process kill
+   Oss detected that P6 is deadlocked at time 200:000000000
+   Attempting to resolve deadlock
+   P6 released resource: R19:1
+   Oss killing process P6
+   Oss running deadlock detector after process kill
+   Oss detected that P7 is deadlocked at time 200:000000000
+   Attempting to resolve deadlock
+   P7 released resource: R1:1
+   Oss killing process P7
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 201:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R18:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P3 is deadlocked at time 201:001000000
+   Attempting to resolve deadlock
+   Oss killing process P3
+   Oss running deadlock detector after process kill
+   Oss detected that P5 is deadlocked at time 201:001000000
+   Attempting to resolve deadlock
+   Oss killing process P5
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 202:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R5:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P3 is deadlocked at time 202:000000000
+   Attempting to resolve deadlock
+   P3 released resource: R16:1
+   P3 released resource: R18:1
+   Oss killing process P3
+   Oss running deadlock detector after process kill
+   Oss detected that P5 is deadlocked at time 202:000000000
+   Attempting to resolve deadlock
+   Oss killing process P5
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 203:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R17:2
+   P0 released resource: R18:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P3 is deadlocked at time 203:000000000
+   Attempting to resolve deadlock
+   P3 released resource: R14:1
+   P3 released resource: R16:2
+   P3 released resource: R17:1
+   P3 released resource: R19:2
+   Oss killing process P3
+   Oss running deadlock detector after process kill
+   Oss detected that P5 is deadlocked at time 203:000000000
+   Attempting to resolve deadlock
+   Oss killing process P5
+   Oss running deadlock detector after process kill
+   Oss detected that P6 is deadlocked at time 203:000000000
+   Attempting to resolve deadlock
+   P6 released resource: R7:1
+   P6 released resource: R15:1
+   P6 released resource: R19:1
+   Oss killing process P6
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 204:000000000
+   Attempting to resolve deadlock
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P7 is deadlocked at time 204:001000000
+   Attempting to resolve deadlock
+   Oss killing process P7
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 205:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R2:1
+   P0 released resource: R5:1
+   P0 released resource: R9:1
+   P0 released resource: R12:1
+   P0 released resource: R18:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P3 is deadlocked at time 205:000000000
+   Attempting to resolve deadlock
+   P3 released resource: R6:1
+   P3 released resource: R18:1
+   P3 released resource: R19:1
+   Oss killing process P3
+   Oss running deadlock detector after process kill
+   Oss detected that P5 is deadlocked at time 205:000000000
+   Attempting to resolve deadlock
+   Oss killing process P5
+   Oss running deadlock detector after process kill
+   Oss detected that P6 is deadlocked at time 205:000000000
+   Attempting to resolve deadlock
+   P6 released resource: R19:1
+   Oss killing process P6
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 206:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R1:1
+   P0 released resource: R2:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P3 is deadlocked at time 206:002000000
+   Attempting to resolve deadlock
+   Oss killing process P3
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 207:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R11:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P3 is deadlocked at time 207:000000000
+   Attempting to resolve deadlock
+   P3 released resource: R16:1
+   P3 released resource: R18:1
+   Oss killing process P3
+   Oss running deadlock detector after process kill
+   Oss detected that P5 is deadlocked at time 207:001000000
+   Attempting to resolve deadlock
+   Oss killing process P5
+   Oss running deadlock detector after process kill
+   Oss detected that P7 is deadlocked at time 207:001000000
+   Attempting to resolve deadlock
+   P7 released resource: R7:1
+   Oss killing process P7
+   Oss running deadlock detector after process kill
+   Oss detected that P9 is deadlocked at time 207:001000000
+   Attempting to resolve deadlock
+   P9 released resource: R16:1
+   Oss killing process P9
+   Oss running deadlock detector after process kill
+   Oss detected that P11 is deadlocked at time 207:001000000
+   Attempting to resolve deadlock
+   P11 released resource: R2:1
+   P11 released resource: R7:1
+   P11 released resource: R17:1
+   P11 released resource: R18:1
+   Oss killing process P11
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 208:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R14:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P3 is deadlocked at time 208:001000000
+   Attempting to resolve deadlock
+   P3 released resource: R15:1
+   P3 released resource: R18:1
+   Oss killing process P3
+   Oss running deadlock detector after process kill
+   Oss detected that P5 is deadlocked at time 208:001000000
+   Attempting to resolve deadlock
+   P5 released resource: R16:1
+   Oss killing process P5
+   Oss running deadlock detector after process kill
+   Oss detected that P12 is deadlocked at time 208:001000000
+   Attempting to resolve deadlock
+   P12 released resource: R1:1
+   P12 released resource: R7:1
+   P12 released resource: R11:2
+   P12 released resource: R14:2
+   P12 released resource: R17:1
+   P12 released resource: R19:1
+   Oss killing process P12
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 209:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R2:1
+   P0 released resource: R4:1
+   P0 released resource: R5:1
+   P0 released resource: R6:1
+   P0 released resource: R15:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 209:002000000
+   Attempting to resolve deadlock
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   Oss detected that P3 is deadlocked at time 209:002000000
+   Attempting to resolve deadlock
+   P3 released resource: R17:1
+   Oss killing process P3
+   Oss running deadlock detector after process kill
+   Oss detected that P5 is deadlocked at time 209:002000000
+   Attempting to resolve deadlock
+   P5 released resource: R19:1
+   Oss killing process P5
+   Oss running deadlock detector after process kill
+   Oss detected that P11 is deadlocked at time 209:002000000
+   Attempting to resolve deadlock
+   P11 released resource: R9:1
+   Oss killing process P11
+   Oss running deadlock detector after process kill
+   Oss detected that P15 is deadlocked at time 209:002000000
+   Attempting to resolve deadlock
+   P15 released resource: R8:1
+   P15 released resource: R9:1
+   Oss killing process P15
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 210:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R7:1
+   P0 released resource: R15:3
+   P0 released resource: R16:1
+   P0 released resource: R18:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 210:000000000
+   Attempting to resolve deadlock
+   P1 released resource: R8:1
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   Oss detected that P3 is deadlocked at time 210:000000000
+   Attempting to resolve deadlock
+   P3 released resource: R16:1
+   P3 released resource: R17:1
+   P3 released resource: R19:2
+   Oss killing process P3
+   Oss running deadlock detector after process kill
+   Oss detected that P5 is deadlocked at time 210:000000000
+   Attempting to resolve deadlock
+   Oss killing process P5
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 211:000000000
+   Attempting to resolve deadlock
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 211:000000000
+   Attempting to resolve deadlock
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   Oss detected that P3 is deadlocked at time 211:000000000
+   Attempting to resolve deadlock
+   P3 released resource: R8:1
+   Oss killing process P3
+   Oss running deadlock detector after process kill
+   Oss detected that P5 is deadlocked at time 211:000000000
+   Attempting to resolve deadlock
+   P5 released resource: R11:1
+   P5 released resource: R14:1
+   Oss killing process P5
+   Oss running deadlock detector after process kill
+   Oss detected that P6 is deadlocked at time 211:000000000
+   Attempting to resolve deadlock
+   P6 released resource: R4:1
+   P6 released resource: R5:1
+   Oss killing process P6
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 212:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R6:3
+   P0 released resource: R14:1
+   P0 released resource: R19:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 212:001000000
+   Attempting to resolve deadlock
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 213:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R1:1
+   P0 released resource: R4:1
+   P0 released resource: R5:1
+   P0 released resource: R6:2
+   P0 released resource: R7:1
+   P0 released resource: R11:4
+   P0 released resource: R12:1
+   P0 released resource: R17:2
+   P0 released resource: R18:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 213:000000000
+   Attempting to resolve deadlock
+   P1 released resource: R0:1
+   P1 released resource: R2:1
+   P1 released resource: R16:1
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   Oss detected that P3 is deadlocked at time 213:000000000
+   Attempting to resolve deadlock
+   P3 released resource: R12:2
+   P3 released resource: R14:1
+   P3 released resource: R15:2
+   P3 released resource: R16:1
+   P3 released resource: R17:1
+   P3 released resource: R18:1
+   Oss killing process P3
+   Oss running deadlock detector after process kill
+   Oss detected that P5 is deadlocked at time 213:000000000
+   Attempting to resolve deadlock
+   Oss killing process P5
+   Oss running deadlock detector after process kill
+   Oss detected that P6 is deadlocked at time 213:000000000
+   Attempting to resolve deadlock
+   Oss killing process P6
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 214:001000000
+   Attempting to resolve deadlock
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 214:002000000
+   Attempting to resolve deadlock
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   Oss detected that P3 is deadlocked at time 214:002000000
+   Attempting to resolve deadlock
+   P3 released resource: R7:1
+   P3 released resource: R14:1
+   Oss killing process P3
+   Oss running deadlock detector after process kill
+   Oss detected that P7 is deadlocked at time 214:002000000
+   Attempting to resolve deadlock
+   P7 released resource: R8:1
+   P7 released resource: R14:1
+   Oss killing process P7
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 215:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R6:1
+   P0 released resource: R9:1
+   P0 released resource: R11:1
+   P0 released resource: R12:1
+   P0 released resource: R16:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 215:000000000
+   Attempting to resolve deadlock
+   P1 released resource: R11:2
+   P1 released resource: R12:2
+   P1 released resource: R15:2
+   P1 released resource: R16:1
+   P1 released resource: R17:2
+   P1 released resource: R18:1
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   Oss detected that P3 is deadlocked at time 215:000000000
+   Attempting to resolve deadlock
+   P3 released resource: R7:1
+   P3 released resource: R12:2
+   Oss killing process P3
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 216:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R12:1
+   P0 released resource: R17:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 216:000000000
+   Attempting to resolve deadlock
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   Oss detected that P5 is deadlocked at time 216:000000000
+   Attempting to resolve deadlock
+   P5 released resource: R1:1
+   P5 released resource: R7:1
+   P5 released resource: R12:1
+   P5 released resource: R15:1
+   P5 released resource: R18:1
+   Oss killing process P5
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 217:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R5:1
+   P0 released resource: R15:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 217:001000000
+   Attempting to resolve deadlock
+   P1 released resource: R12:1
+   P1 released resource: R17:1
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   Oss detected that P3 is deadlocked at time 217:001000000
+   Attempting to resolve deadlock
+   Oss killing process P3
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 218:001000000
+   Attempting to resolve deadlock
+   P0 released resource: R1:1
+   P0 released resource: R7:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 218:002000000
+   Attempting to resolve deadlock
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   Oss detected that P3 is deadlocked at time 218:002000000
+   Attempting to resolve deadlock
+   P3 released resource: R9:1
+   P3 released resource: R11:2
+   P3 released resource: R14:1
+   P3 released resource: R19:1
+   Oss killing process P3
+   Oss running deadlock detector after process kill
+   Oss detected that P5 is deadlocked at time 218:002000000
+   Attempting to resolve deadlock
+   Oss killing process P5
+   Oss running deadlock detector after process kill
+   Oss detected that P6 is deadlocked at time 218:002000000
+   Attempting to resolve deadlock
+   P6 released resource: R4:1
+   P6 released resource: R5:1
+   P6 released resource: R7:1
+   P6 released resource: R12:1
+   P6 released resource: R14:1
+   P6 released resource: R15:3
+   P6 released resource: R17:2
+   P6 released resource: R19:1
+   Oss killing process P6
+   Oss running deadlock detector after process kill
+   Oss detected that P7 is deadlocked at time 218:002000000
+   Attempting to resolve deadlock
+   Oss killing process P7
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 219:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R2:2
+   P0 released resource: R3:2
+   P0 released resource: R5:1
+   P0 released resource: R12:1
+   P0 released resource: R18:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 219:000000000
+   Attempting to resolve deadlock
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   Oss detected that P12 is deadlocked at time 219:000000000
+   Attempting to resolve deadlock
+   P12 released resource: R15:1
+   P12 released resource: R16:1
+   P12 released resource: R17:1
+   Oss killing process P12
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 220:000000000
+   Attempting to resolve deadlock
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 220:000000000
+   Attempting to resolve deadlock
+   P1 released resource: R1:1
+   P1 released resource: R7:2
+   P1 released resource: R17:1
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 221:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R6:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 221:000000000
+   Attempting to resolve deadlock
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   Oss detected that P3 is deadlocked at time 221:000000000
+   Attempting to resolve deadlock
+   P3 released resource: R8:1
+   P3 released resource: R12:1
+   Oss killing process P3
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 222:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R11:1
+   P0 released resource: R15:1
+   P0 released resource: R17:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 222:000000000
+   Attempting to resolve deadlock
+   P1 released resource: R14:1
+   P1 released resource: R19:1
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   Oss detected that P5 is deadlocked at time 222:000000000
+   Attempting to resolve deadlock
+   P5 released resource: R19:1
+   Oss killing process P5
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 223:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R17:1
+   P0 released resource: R18:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 223:000000000
+   Attempting to resolve deadlock
+   P1 released resource: R0:1
+   P1 released resource: R2:2
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   Oss detected that P3 is deadlocked at time 223:000000000
+   Attempting to resolve deadlock
+   P3 released resource: R16:1
+   Oss killing process P3
+   Oss running deadlock detector after process kill
+   Oss detected that P5 is deadlocked at time 223:000000000
+   Attempting to resolve deadlock
+   Oss killing process P5
+   Oss running deadlock detector after process kill
+   Oss detected that P6 is deadlocked at time 223:000000000
+   Attempting to resolve deadlock
+   Oss killing process P6
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 224:000000000
+   Attempting to resolve deadlock
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 224:001000000
+   Attempting to resolve deadlock
+   P1 released resource: R19:1
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   Oss detected that P3 is deadlocked at time 224:001000000
+   Attempting to resolve deadlock
+   Oss killing process P3
+   Oss running deadlock detector after process kill
+   Oss detected that P5 is deadlocked at time 224:001000000
+   Attempting to resolve deadlock
+   P5 released resource: R12:1
+   Oss killing process P5
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 225:000000000
+   Attempting to resolve deadlock
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 225:000000000
+   Attempting to resolve deadlock
+   P1 released resource: R18:1
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   Oss detected that P3 is deadlocked at time 225:000000000
+   Attempting to resolve deadlock
+   P3 released resource: R16:2
+   P3 released resource: R18:1
+   P3 released resource: R19:1
+   Oss killing process P3
+   Oss running deadlock detector after process kill
+   Oss detected that P7 is deadlocked at time 225:000000000
+   Attempting to resolve deadlock
+   Oss killing process P7
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 226:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R11:1
+   P0 released resource: R12:1
+   P0 released resource: R17:2
+   P0 released resource: R19:3
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 226:000000000
+   Attempting to resolve deadlock
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   Oss detected that P5 is deadlocked at time 226:000000000
+   Attempting to resolve deadlock
+   P5 released resource: R0:1
+   Oss killing process P5
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 227:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R4:1
+   P0 released resource: R9:1
+   P0 released resource: R18:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 227:000000000
+   Attempting to resolve deadlock
+   P1 released resource: R12:2
+   P1 released resource: R17:1
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   Oss detected that P3 is deadlocked at time 227:000000000
+   Attempting to resolve deadlock
+   P3 released resource: R14:1
+   P3 released resource: R18:1
+   Oss killing process P3
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 228:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R6:1
+   P0 released resource: R14:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 228:001000000
+   Attempting to resolve deadlock
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   Oss detected that P3 is deadlocked at time 228:001000000
+   Attempting to resolve deadlock
+   P3 released resource: R8:1
+   P3 released resource: R19:2
+   Oss killing process P3
+   Oss running deadlock detector after process kill
+   Oss detected that P5 is deadlocked at time 228:001000000
+   Attempting to resolve deadlock
+   P5 released resource: R0:1
+   P5 released resource: R9:1
+   Oss killing process P5
+   Oss running deadlock detector after process kill
+   Oss detected that P7 is deadlocked at time 228:001000000
+   Attempting to resolve deadlock
+   Oss killing process P7
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 229:000000000
+   Attempting to resolve deadlock
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 229:000000000
+   Attempting to resolve deadlock
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   Oss detected that P3 is deadlocked at time 229:001000000
+   Attempting to resolve deadlock
+   Oss killing process P3
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 230:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R17:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 231:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R7:1
+   P0 released resource: R17:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 231:001000000
+   Attempting to resolve deadlock
+   P1 released resource: R15:1
+   P1 released resource: R18:1
+   P1 released resource: R19:1
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   Oss detected that P3 is deadlocked at time 231:001000000
+   Attempting to resolve deadlock
+   P3 released resource: R5:1
+   P3 released resource: R6:1
+   P3 released resource: R8:1
+   P3 released resource: R18:1
+   P3 released resource: R19:1
+   Oss killing process P3
+   Oss running deadlock detector after process kill
+   Oss detected that P5 is deadlocked at time 231:001000000
+   Attempting to resolve deadlock
+   P5 released resource: R0:1
+   Oss killing process P5
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 232:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R9:1
+   P0 released resource: R19:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 232:000000000
+   Attempting to resolve deadlock
+   P1 released resource: R5:1
+   P1 released resource: R14:1
+   P1 released resource: R17:1
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   Oss detected that P3 is deadlocked at time 232:000000000
+   Attempting to resolve deadlock
+   P3 released resource: R16:1
+   P3 released resource: R19:1
+   Oss killing process P3
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 233:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R14:1
+   P0 released resource: R15:1
+   P0 released resource: R18:3
+   P0 released resource: R19:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 233:000000000
+   Attempting to resolve deadlock
+   P1 released resource: R17:1
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   Oss detected that P3 is deadlocked at time 233:000000000
+   Attempting to resolve deadlock
+   Oss killing process P3
+   Oss running deadlock detector after process kill
+   Oss detected that P5 is deadlocked at time 233:000000000
+   Attempting to resolve deadlock
+   P5 released resource: R17:1
+   Oss killing process P5
+   Oss running deadlock detector after process kill
+   Oss detected that P6 is deadlocked at time 233:000000000
+   Attempting to resolve deadlock
+   P6 released resource: R12:1
+   P6 released resource: R15:1
+   P6 released resource: R19:1
+   Oss killing process P6
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 234:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R4:1
+   P0 released resource: R18:1
+   P0 released resource: R19:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 234:001000000
+   Attempting to resolve deadlock
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   Oss detected that P7 is deadlocked at time 234:001000000
+   Attempting to resolve deadlock
+   P7 released resource: R9:1
+   P7 released resource: R17:3
+   Oss killing process P7
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 235:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R18:1
+   P0 released resource: R19:3
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 235:000000000
+   Attempting to resolve deadlock
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   Oss detected that P3 is deadlocked at time 235:000000000
+   Attempting to resolve deadlock
+   P3 released resource: R4:1
+   Oss killing process P3
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 236:001000000
+   Attempting to resolve deadlock
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 236:001000000
+   Attempting to resolve deadlock
+   P1 released resource: R18:1
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   Oss detected that P3 is deadlocked at time 236:001000000
+   Attempting to resolve deadlock
+   P3 released resource: R17:1
+   Oss killing process P3
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 237:000000000
+   Attempting to resolve deadlock
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 237:000000000
+   Attempting to resolve deadlock
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 238:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R6:1
+   P0 released resource: R19:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 238:000000000
+   Attempting to resolve deadlock
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   Oss detected that P3 is deadlocked at time 238:000000000
+   Attempting to resolve deadlock
+   P3 released resource: R1:1
+   P3 released resource: R2:1
+   P3 released resource: R18:1
+   P3 released resource: R19:3
+   Oss killing process P3
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 239:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R6:1
+   P0 released resource: R15:1
+   P0 released resource: R18:2
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 239:001000000
+   Attempting to resolve deadlock
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 240:000000000
+   Attempting to resolve deadlock
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 240:000000000
+   Attempting to resolve deadlock
+   P1 released resource: R17:1
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 241:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R3:1
+   P0 released resource: R7:1
+   P0 released resource: R16:1
+   P0 released resource: R17:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 241:001000000
+   Attempting to resolve deadlock
+   P1 released resource: R15:1
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   Oss detected that P3 is deadlocked at time 241:001000000
+   Attempting to resolve deadlock
+   P3 released resource: R6:1
+   P3 released resource: R9:1
+   Oss killing process P3
+   Oss running deadlock detector after process kill
+   Oss detected that P5 is deadlocked at time 241:001000000
+   Attempting to resolve deadlock
+   Oss killing process P5
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 242:000000000
+   Attempting to resolve deadlock
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 242:000000000
+   Attempting to resolve deadlock
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P3 is deadlocked at time 243:000000000
+   Attempting to resolve deadlock
+   P3 released resource: R8:1
+   P3 released resource: R9:1
+   P3 released resource: R19:1
+   Oss killing process P3
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 244:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R1:1
+   P0 released resource: R4:1
+   P0 released resource: R9:1
+   P0 released resource: R12:3
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 244:001000000
+   Attempting to resolve deadlock
+   P1 released resource: R15:1
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   Oss detected that P3 is deadlocked at time 244:001000000
+   Attempting to resolve deadlock
+   P3 released resource: R11:2
+   P3 released resource: R12:2
+   P3 released resource: R15:2
+   P3 released resource: R16:2
+   P3 released resource: R18:1
+   Oss killing process P3
+   Oss running deadlock detector after process kill
+   Oss detected that P5 is deadlocked at time 244:001000000
+   Attempting to resolve deadlock
+   Oss killing process P5
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 245:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R11:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 245:001000000
+   Attempting to resolve deadlock
+   P1 released resource: R11:1
+   P1 released resource: R12:4
+   P1 released resource: R18:1
+   P1 released resource: R19:1
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   Oss detected that P5 is deadlocked at time 245:001000000
+   Attempting to resolve deadlock
+   P5 released resource: R11:1
+   P5 released resource: R12:1
+   P5 released resource: R14:1
+   P5 released resource: R18:1
+   Oss killing process P5
+   Oss running deadlock detector after process kill
+   Oss detected that P6 is deadlocked at time 245:001000000
+   Attempting to resolve deadlock
+   P6 released resource: R9:1
+   P6 released resource: R16:1
+   Oss killing process P6
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 246:000000000
+   Attempting to resolve deadlock
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 246:001000000
+   Attempting to resolve deadlock
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 247:000000000
+   Attempting to resolve deadlock
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 247:000000000
+   Attempting to resolve deadlock
+   P1 released resource: R11:1
+   P1 released resource: R12:3
+   P1 released resource: R15:1
+   P1 released resource: R17:1
+   P1 released resource: R18:2
+   P1 released resource: R19:1
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   Oss detected that P3 is deadlocked at time 247:000000000
+   Attempting to resolve deadlock
+   P3 released resource: R14:1
+   P3 released resource: R16:1
+   Oss killing process P3
+   Oss running deadlock detector after process kill
+   Oss detected that P5 is deadlocked at time 247:000000000
+   Attempting to resolve deadlock
+   P5 released resource: R4:1
+   P5 released resource: R7:1
+   Oss killing process P5
+   Oss running deadlock detector after process kill
+   Oss detected that P6 is deadlocked at time 247:000000000
+   Attempting to resolve deadlock
+   Oss killing process P6
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 248:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R14:1
+   P0 released resource: R16:2
+   P0 released resource: R17:3
+   P0 released resource: R18:1
+   P0 released resource: R19:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P1 is deadlocked at time 248:001000000
+   Attempting to resolve deadlock
+   Oss killing process P1
+   Oss running deadlock detector after process kill
+   Oss detected that P3 is deadlocked at time 248:001000000
+   Attempting to resolve deadlock
+   Oss killing process P3
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 249:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R16:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P7 is deadlocked at time 249:002000000
+   Attempting to resolve deadlock
+   P7 released resource: R18:1
+   Oss killing process P7
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 250:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R15:1
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P3 is deadlocked at time 250:001000000
+   Attempting to resolve deadlock
+   P3 released resource: R18:1
+   Oss killing process P3
+   Oss running deadlock detector after process kill
+   Oss detected that P5 is deadlocked at time 250:001000000
+   Attempting to resolve deadlock
+   P5 released resource: R14:1
+   P5 released resource: R15:1
+   P5 released resource: R17:1
+   P5 released resource: R19:1
+   Oss killing process P5
+   Oss running deadlock detector after process kill
+   Oss detected that P6 is deadlocked at time 250:001000000
+   Attempting to resolve deadlock
+   P6 released resource: R14:1
+   P6 released resource: R15:1
+   P6 released resource: R16:1
+   P6 released resource: R17:4
+   Oss killing process P6
+   Oss running deadlock detector after process kill
+   Oss detected that P7 is deadlocked at time 250:001000000
+   Attempting to resolve deadlock
+   Oss killing process P7
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 251:000000000
+   Attempting to resolve deadlock
+   Oss killing process P0
+   Oss running deadlock detector after process kill
+   Oss detected that P3 is deadlocked at time 251:001000000
+   Attempting to resolve deadlock
+   Oss killing process P3
+   Oss running deadlock detector after process kill
+   Oss detected that P5 is deadlocked at time 251:001000000
+   Attempting to resolve deadlock
+   P5 released resource: R16:2
+   P5 released resource: R17:1
+   P5 released resource: R18:3
+   P5 released resource: R19:1
+   Oss killing process P5
+   Oss running deadlock detector after process kill
+   Oss detected that P6 is deadlocked at time 251:001000000
+   Attempting to resolve deadlock
+   P6 released resource: R4:1
+   Oss killing process P6
+   Oss running deadlock detector after process kill
+   Oss detected that P7 is deadlocked at time 251:001000000
+   Attempting to resolve deadlock
+   Oss killing process P7
+   Oss running deadlock detector after process kill
+   Oss detected that P11 is deadlocked at time 251:001000000
+   Attempting to resolve deadlock
+   P11 released resource: R0:1
+   Oss killing process P11
+   Oss running deadlock detector after process kill
+   System is no longer in deadlock
+   Oss detected that P0 is deadlocked at time 252:000000000
+   Attempting to resolve deadlock
+   P0 released resource: R1:1
+   Total Granted Requests: 7541
+Total Normal Terminations: 185
+Total Deadlock Algorithm Runs: 236
+Total Deadlock Terminations: 825
+Pecentage of processes in deadlock that had to terminate on avg: 32%

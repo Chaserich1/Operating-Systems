@@ -1,0 +1,54 @@
+Author: Chase Richards
+Project: CS4760 - Homework 4
+Filename: README  
+Date: March 18, 2020
+
+-------------------------------------------------------------------------------
+
+How to Compile and Run (without typing "./" before the executable):
+
+$ make
+$ export PATH="$PATH:."
+
+To Run (Default option values or using options):
+
+$ ./oss 
+or
+$ ./oss -n 18
+
+To remove all .o, .dat and the executables:
+
+$ make clean
+
+--------------------------------------------------------------------------------
+
+File Change Log in project directory:
+ChangeLog.log
+
+You can also see what changed in the files at:
+https://github.com/Chaserich1/richards.4
+
+--------------------------------------------------------------------------------
+
+Aging Algorithm Comments:
+
+At the beginning of the while loop in oss.c, before creating a new process, it
+checks to ensure that no processes are starved for CPU time. If a process is 
+starved and the wait time is significantly more than the cpu time then the process 
+is moved to the highest priority of its class. If it is a user process then its pr
+iority becomes 1, so it is marked as the highest priority of the user processes.
+
+--------------------------------------------------------------------------------
+
+Additional Project Information:
+
+I made it so once a process completes then the "fake" pid is made available 
+again for use by other processes, so you will see the same pid number mult
+times. Further in the output file you will see nearly all of the available pids used.
+Also for writing to the file I made it so if it goes past 9950 lines
+then it will stop generating new processes but it will still finish out what
+is in the system, so it may go a bit over 10000 as it's finishing but it will
+not go significantly over. Make clean removes the output log file as well.
+ 
+-------------------------------------------------------------------------------
+

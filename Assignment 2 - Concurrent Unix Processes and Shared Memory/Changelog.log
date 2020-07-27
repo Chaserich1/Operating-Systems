@@ -1,0 +1,210 @@
+commit 5892fe523833247b6495e92ad57b221ab5fb6fe7
+Author: Chase Richards <richards@hoare7.cs.umsl.edu>
+Date:   Wed Feb 26 16:00:56 2020 -0600
+
+    Added an array for the numbers that don't have enough time to determine prime or not (more than a milisecond) and tested by changing the incrementation to 1 milisecond. Everything is complete
+
+commit 58c047f02ee7cbb4c70172894aad13dcaf5cf223
+Author: Chase Richards <richards@hoare7.cs.umsl.edu>
+Date:   Tue Feb 25 18:43:42 2020 -0600
+
+    Shared memory array now working because I removed the part from childprocess.c where I was removing the shared memroy segment
+
+commit e08c9060d9f0657c2692729dcdebc81bed739d49
+Author: Chase Richards <richards@hoare7.cs.umsl.edu>
+Date:   Tue Feb 25 16:47:43 2020 -0600
+
+    Shared memory array working. Ended up taking it out of the struct and connecting it to a segment and everything is now working, all that's left is final cleanup
+
+commit 00e9c6508a7aa69d6b15e8e3b3b0d79e1dc58bb7
+Author: Chase Richards <richards@hoare7.cs.umsl.edu>
+Date:   Mon Feb 24 17:33:28 2020 -0600
+
+    Printing the the prime array to the output file in the child process rather than from Control.c
+
+commit 7221188129346673877554d872e5b5432c4e125d
+Author: Chase Richards <richards@hoare7.cs.umsl.edu>
+Date:   Sun Feb 23 16:59:37 2020 -0600
+
+    Added the program ending time once completed successfully
+
+commit 31e15734eecfdfd5a45666bb264467818507d5c8
+Author: Chase Richards <richards@hoare7.cs.umsl.edu>
+Date:   Sat Feb 22 21:15:14 2020 -0600
+
+    Prime Checking and printing to the file it working. Also added 1 millisecond timeout for the prime check
+
+commit f2300e2072dbfc0b31f48e92d3f1eb67210f83ba
+Author: Chase Richards <richards@hoare7.cs.umsl.edu>
+Date:   Sat Feb 22 07:06:06 2020 -0600
+
+    Passing nums to check through exec and then adding them to the shared memory array, still need to make sure they are negative if not prime
+
+commit ce492ff11f7ccca36a7dedd1795bde78a161ff18
+Author: Chase Richards <richards@hoare7.cs.umsl.edu>
+Date:   Fri Feb 21 10:48:12 2020 -0600
+
+    updated my loop and made sure when I get a signal that the shared memory is removed. Having issues with the child id that is writing to the file
+
+commit 201d164b7f09388bfb9a1d7284b213b13d0aaa15
+Author: Chase Richards <richards@hoare7.cs.umsl.edu>
+Date:   Thu Feb 20 18:37:19 2020 -0600
+
+    Broke code down into more functions. Creating and writing to output file times, but still working on my timers. Passing childids and primenumber through execl. Added child array to shared memory in addtion to the times
+
+commit 3efc1801d4c1e5b5ae517cab90cf0eed1859264d
+Author: Chase Richards <50150341+Chaserich1@users.noreply.github.com>
+Date:   Wed Feb 19 16:03:55 2020 -0600
+
+    Delete CommandOptions.h
+
+commit 3328a2da8662b86851627726058854a41621840d
+Author: Chase Richards <50150341+Chaserich1@users.noreply.github.com>
+Date:   Wed Feb 19 16:03:46 2020 -0600
+
+    Delete CommandOptions.c
+
+commit 1fb6bcde219f7337086f01901c66e953c56b8c8e
+Author: Chase Richards <richards@hoare7.cs.umsl.edu>
+Date:   Wed Feb 19 16:03:16 2020 -0600
+
+    Updated so that I am using a struct for shared memory and -n and -s options still working
+
+commit 36fb7b609b5f0bc4d2eedebbf908b43a904cf336
+Author: Chase Richards <richards@hoare7.cs.umsl.edu>
+Date:   Tue Feb 18 17:21:01 2020 -0600
+
+    loop for the child process working for -n and kid of -s. Timer now showing the end times for each child
+
+commit 1c26ebda2287ae353590e4ab73c99563d5a3ce6a
+Author: Chase Richards <richards@hoare7.cs.umsl.edu>
+Date:   Mon Feb 17 16:06:05 2020 -0600
+
+    Moved getopt switch to Control.c main. Forking based on -n x that is passed in successfully.
+
+commit b928bf4ee7f48ead188a8e7c2a9b1c79171a63c7
+Author: Chase Richards <richards@hoare7.cs.umsl.edu>
+Date:   Mon Feb 17 14:58:53 2020 -0600
+
+    Signal handling working for ctrl-c and 2 second time limit. Tested using an infinite loop in the child.
+
+commit f2e68b9d3ffcd7e65db1ffa3bfb1af85de3da6b1
+Author: Chase Richards <50150341+Chaserich1@users.noreply.github.com>
+Date:   Sun Feb 16 18:36:20 2020 -0600
+
+    Delete prime
+
+commit f1c906df7f902e4ace8f6150651751c138568ed2
+Author: Chase Richards <50150341+Chaserich1@users.noreply.github.com>
+Date:   Sun Feb 16 18:36:14 2020 -0600
+
+    Delete oss
+
+commit 2d0be3a8baf3dd5d17733d47d0dcb22489c472a2
+Author: Chase Richards <50150341+Chaserich1@users.noreply.github.com>
+Date:   Sun Feb 16 18:36:07 2020 -0600
+
+    Delete CommandOptions.o
+
+commit 67639a30c536e7b819b3dce479d84a5b10771f98
+Author: Chase Richards <50150341+Chaserich1@users.noreply.github.com>
+Date:   Sun Feb 16 18:35:58 2020 -0600
+
+    Delete ChildProcess.o
+
+commit c043034bc7278ecff2ee4143dbcb4af2028e7d4c
+Author: Chase Richards <50150341+Chaserich1@users.noreply.github.com>
+Date:   Sun Feb 16 18:35:50 2020 -0600
+
+    Delete Control.o
+
+commit c234a6847a8c0e2b0c006f4367d1f145f719e885
+Author: Chase Richards <richards@hoare7.cs.umsl.edu>
+Date:   Sun Feb 16 18:35:08 2020 -0600
+
+    Timer implemented using clock_gettime from the manual. Times are all around .0007 seconds or 700000 nanoseconds, not sure if this is correct or not.
+
+commit 7cd7007cf0480a87b435a0493957dd304cd9c54c
+Merge: b2807e3 583bbee
+Author: Chase Richards <richards@hoare7.cs.umsl.edu>
+Date:   Sun Feb 16 15:56:35 2020 -0600
+
+    Merge branch 'master' of https://github.com/Chaserich1/richards.2
+
+commit b2807e3eef447c443174caa0afe6af30ec15d0fc
+Author: Chase Richards <richards@hoare7.cs.umsl.edu>
+Date:   Sun Feb 16 15:55:47 2020 -0600
+
+    Forking child successfully, reading the memory after execl from the child process working, getting memory deallocation error from Control.c, not sure the problem yet
+
+commit 583bbee95d1342c93a4a4aa0276e4661fed021eb
+Author: Chase Richards <50150341+Chaserich1@users.noreply.github.com>
+Date:   Sun Feb 16 14:24:30 2020 -0600
+
+    Delete main.c
+
+commit 516f5830603ee4beaaae750f7c8e13a829c87348
+Author: Chase Richards <richards@hoare7.cs.umsl.edu>
+Date:   Sun Feb 16 11:54:17 2020 -0600
+
+    execl working to have the child do ls -l. Commented this out and next step is working on what the child process should actually do - adding a new file for this work
+
+commit 8a12d6e318defc43ef3ed10da27f14e835c03ca7
+Author: Chase Richards <richards@hoare7.cs.umsl.edu>
+Date:   Sun Feb 16 10:49:32 2020 -0600
+
+    Moved shared memory work out of main and into a function so that it's easier to work with main function
+
+commit 2c5dd6bcc4738a15af54e6bdc5f8ce3f2d0507b0
+Author: Chase Richards <richards@hoare7.cs.umsl.edu>
+Date:   Sat Feb 15 20:23:08 2020 -0600
+
+    Accessing, Attaching, and Detaching/Deallocating shared memory. Tested using it by simply putting argv[1] into it and printing it out
+
+commit e9e326ef2c66bf60786713c8ff49c816dbe5d8df
+Author: Chase Richards <richards@hoare7.cs.umsl.edu>
+Date:   Fri Feb 14 14:52:53 2020 -0600
+
+    using optargs to retrieve the command option values and removed the use of flgs
+
+commit ae19b524a23ec707021c1d96d97d0996d0f6c2e8
+Author: Chase Richards <richards@hoare7.cs.umsl.edu>
+Date:   Fri Feb 14 14:51:19 2020 -0600
+
+    Moved help function to be called from getopts switch
+
+commit 15aae8e3e81339cafbd619a00d1e4e61715543c2
+Author: Chase Richards <50150341+Chaserich1@users.noreply.github.com>
+Date:   Thu Feb 13 18:39:05 2020 -0600
+
+    Delete README.md
+
+commit 8d6afb5fe2fd411044e7372795ce51d3bf404804
+Author: Chase Richards <richards@hoare7.cs.umsl.edu>
+Date:   Thu Feb 13 18:38:15 2020 -0600
+
+    Created outline for the readme
+
+commit 7ffd41762a4fdfddd6d6b99ded5ea32e2c65413d
+Author: Chase Richards <richards@hoare7.cs.umsl.edu>
+Date:   Thu Feb 13 18:37:36 2020 -0600
+
+    Added function to print the help message if -h is specified
+
+commit 80bdf0253f925d47472478e49ecc8618e0c16780
+Author: Chase Richards <richards@hoare7.cs.umsl.edu>
+Date:   Thu Feb 13 18:34:26 2020 -0600
+
+    Set up makefile to compile source files into two seperate executables
+
+commit d618c1a5048dc47289efe861b40fecf5d759eed6
+Author: Chase Richards <richards@hoare7.cs.umsl.edu>
+Date:   Thu Feb 13 18:33:12 2020 -0600
+
+    Used getopt for the command line options and a function for printing the help message
+
+commit 2dbb72a8ec97d8c3ac5966f6db4e9b1298c15a53
+Author: Chase Richards <50150341+Chaserich1@users.noreply.github.com>
+Date:   Thu Feb 13 16:43:58 2020 -0600
+
+    Initial commit

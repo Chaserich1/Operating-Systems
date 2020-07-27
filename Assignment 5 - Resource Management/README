@@ -1,0 +1,68 @@
+Author: Chase Richards
+Project: CS4760 - Homework 5
+Filename: README  
+Date: April 14, 2020
+
+-------------------------------------------------------------------------------
+
+How to Compile and Run (without typing "./" before the executable):
+
+$ make
+$ export PATH="$PATH:."
+
+To Run (Default option values or using options):
+
+$ ./oss
+or
+$ ./oss -n 18 -v
+
+To remove all .o, .dat and the executables:
+
+$ make clean
+
+--------------------------------------------------------------------------------
+
+File Change Log in project directory:
+ChangeLog.log
+
+You can also see what changed in the files at:
+https://github.com/Chaserich1/richards.5
+
+--------------------------------------------------------------------------------
+
+Comments:
+
+For my handling notifications I decided to use a message queue similar to last 
+project except using more variables in the structure for the different types
+of messages and who the messages were going to and from based on an integer. Also
+the type of message (request, release, termiantion) is determined by an integer
+being sent in the message for the msgDetails field. Oss sends messages to the children
+based on their specific pid and the children send the message to oss based on the 
+value of 1.
+
+For deadlock detection, I used the example from the notes to determine if there is a 
+deadlock. In that deadlock function, I included the resolution code to resolve deadlocks.
+If it is determined that a process or processes are deadlocked, then it will start by
+killing and releasing the resources of the lowest generated process id. So for example
+if P3 and P16 are deadlocked it would start by killing and releasing all the resouces of P3. 
+After killing and releasing P3's resources, I run the deadlock function again to determine 
+if there is still a deadlock even after releasing P3's resources. If there is, then next P16
+would be killed and it's resources released. If there wasn't still a deadlock, then the program
+would go back to normal execution, and continue granting, releasing or terminating based on
+requests. Based on my program runs, I've noticed that on average around 15-50% of the deadlocked
+processes need to terminate to resolve the deadlock.  
+
+--------------------------------------------------------------------------------
+
+Additional Project Information:
+
+1.I left two output files in my project directory: one with -v specified (verbose on) and
+one without -v specified (verbose off).
+2.I played a lot with the incrementation time values and the chances for a process to request,
+release or terminate normally based on their relation to boundB. 
+3.I currently have both oss and the children running in an infinite loop and I set the timer to
+2 real seconds. Once the 2 second alarm goes off, the program stops, does all the cleanup
+and prints the stats to the screen.
+
+-------------------------------------------------------------------------------
+
